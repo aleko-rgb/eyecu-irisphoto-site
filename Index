@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zdjęcie tęczówki oka Poznań z dojazdem — biżuteria, WallArt | EYE C U® Iris Photo</title>
+<meta name="description" content="Makrofotografia tęczówki oka w Poznaniu i Wielkopolsce — z dojazdem do Ciebie. Biżuteria ze zdjęciem tęczówki, WallArt, eventy, zwierzęta. Bon podarunkowy. EYE C U® Iris Photo.">
+<link rel="canonical" href="https://irisphoto.eye-c-u.eu/pl/">
+<link rel="alternate" hreflang="pl" href="https://irisphoto.eye-c-u.eu/pl/">
+<link rel="alternate" hreflang="en" href="https://irisphoto.eye-c-u.eu/en/">
+<link rel="alternate" hreflang="fr" href="https://irisphoto.eye-c-u.eu/fr/">
+<link rel="alternate" hreflang="x-default" href="https://irisphoto.eye-c-u.eu/pl/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0e0e0e;--paper:#ffffff;--bordeaux:#6B1E2E;--gold:#A9805A;--grey:#767676;--line:rgba(0,0,0,0.10);}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{background:var(--paper);color:var(--ink);font-family:'Jost',sans-serif;font-weight:300;overflow-x:hidden;line-height:1.7;}
+h1,h2,h3,.serif{font-family:'Cormorant Garamond',serif;font-weight:400;}
+a{color:inherit;text-decoration:none;}
+img{display:block;max-width:100%;}
+@media(prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;transition-duration:.01ms!important;}}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:22px 5vw;transition:background .5s,padding .4s,box-shadow .4s;}
+nav.scrolled{background:rgba(255,255,255,0.96);backdrop-filter:blur(10px);padding:13px 5vw;box-shadow:0 1px 0 var(--line);}
+.logo{display:flex;align-items:center;gap:9px;font-family:'Cormorant Garamond',serif;font-size:1.05rem;letter-spacing:.28em;text-transform:uppercase;}
+.logo img{height:34px;width:auto;flex:none;}
+.nav-right{display:flex;align-items:center;gap:1.8rem;}
+.nav-links{display:flex;align-items:center;gap:1.8rem;font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;}
+.nav-links a{position:relative;padding-bottom:3px;}
+.nav-links a::after{content:'';position:absolute;left:0;bottom:0;width:0;height:1px;background:var(--bordeaux);transition:width .3s;}
+.nav-links a:hover::after{width:100%;}
+.lang-bar{display:flex;gap:.45rem;font-size:.7rem;letter-spacing:.1em;align-items:center;}
+.lang-bar span{color:rgba(0,0,0,.2);}
+.lang-bar a{transition:color .2s;}
+.lang-bar a.active{color:var(--bordeaux);font-weight:500;}
+.btn{display:inline-block;font-family:'Jost',sans-serif;font-weight:500;font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;padding:.7rem 1.3rem;cursor:pointer;border:1px solid transparent;transition:opacity .25s,background .25s;}
+.btn:hover{opacity:.86;}
+.btn-solid{background:var(--bordeaux);color:#fff;border-color:var(--bordeaux);}
+.btn-ghost{border-color:var(--ink);color:var(--ink);}
+.btn-ghost-light{border-color:rgba(255,255,255,.7);color:#fff;}
+.btn-ghost-light:hover{background:rgba(255,255,255,.08);opacity:1;}
+.nav-toggle{display:none;background:none;border:none;font-size:1.4rem;cursor:pointer;color:var(--ink);}
+@media(max-width:900px){
+  .nav-links{position:fixed;inset:0;background:var(--ink);color:var(--paper);flex-direction:column;justify-content:center;align-items:center;gap:1.8rem;font-size:1rem;opacity:0;pointer-events:none;transition:opacity .4s;z-index:99;overflow-y:auto;}
+  .nav-links.open{opacity:1;pointer-events:all;}
+  .nav-links a::after{background:#fff;}
+  .nav-toggle{display:block;z-index:110;}
+  .lang-desktop{display:none;}
+  .lang-mobile-wrap{display:flex!important;position:fixed;bottom:2rem;left:0;right:0;justify-content:center;z-index:110;opacity:0;pointer-events:none;transition:opacity .4s;}
+  .lang-mobile-wrap.open{opacity:1;pointer-events:all;}
+}
+@media(min-width:901px){.lang-mobile-wrap{display:none;}}
+
+/* HERO */
+.hero{position:relative;min-height:100svh;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;}
+.hero-bg{position:absolute;inset:0;z-index:0;background:radial-gradient(ellipse 65% 85% at 62% 50%,rgba(107,30,46,.22),transparent 65%),radial-gradient(ellipse 85% 55% at 28% 38%,rgba(169,128,90,.1),transparent 58%),linear-gradient(155deg,#0e0e0e 0%,#1c0e12 42%,#0e0a0c 100%);}
+.iris-ring{position:absolute;z-index:1;top:50%;left:60%;transform:translate(-50%,-50%);width:min(66vw,540px);height:min(66vw,540px);border-radius:50%;border:1px solid rgba(169,128,90,.16);box-shadow:0 0 0 clamp(20px,4vw,42px) rgba(107,30,46,.07),0 0 0 clamp(42px,8.5vw,84px) rgba(169,128,90,.035),inset 0 0 70px rgba(107,30,46,.16);animation:irisBreath 8s ease-in-out infinite;pointer-events:none;}
+.iris-ring::before{content:'';position:absolute;inset:12%;border-radius:50%;border:1px solid rgba(169,128,90,.1);box-shadow:inset 0 0 36px rgba(107,30,46,.1);}
+.iris-ring::after{content:'';position:absolute;inset:39%;border-radius:50%;background:radial-gradient(circle,rgba(14,14,14,.92) 40%,rgba(107,30,46,.22) 100%);box-shadow:0 0 20px rgba(107,30,46,.28);}
+@keyframes irisBreath{0%,100%{transform:translate(-50%,-50%) scale(1);}50%{transform:translate(-50%,-50%) scale(1.016);}}
+@media(max-width:860px){.iris-ring{top:28%;left:50%;width:76vw;height:76vw;}}
+.hero-content{position:relative;z-index:2;padding:0 5vw 5rem;max-width:600px;color:#fff;}
+.hero-eyebrow{font-size:.73rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem;opacity:0;animation:riseIn 1s ease .4s forwards;}
+.hero h1{font-size:clamp(2.4rem,5.5vw,4.6rem);font-weight:300;line-height:1.06;letter-spacing:.02em;color:#fff;opacity:0;animation:riseIn 1s ease .65s forwards;}
+.hero h1 em{font-style:italic;color:var(--gold);}
+.hero-sub{margin-top:1.4rem;max-width:46ch;font-size:.97rem;line-height:1.72;color:rgba(255,255,255,.75);opacity:0;animation:riseIn 1s ease .9s forwards;}
+.hero-ctas{margin-top:2.2rem;display:flex;gap:.9rem;flex-wrap:wrap;opacity:0;animation:riseIn 1s ease 1.1s forwards;}
+.scroll-cue{position:absolute;bottom:1.8rem;right:5vw;z-index:2;display:flex;flex-direction:column;align-items:center;gap:7px;opacity:0;animation:riseIn 1s ease 1.4s forwards;}
+.stem{width:1px;height:34px;background:rgba(255,255,255,.25);position:relative;overflow:hidden;}
+.stem::after{content:'';position:absolute;top:-100%;left:0;width:100%;height:100%;background:var(--gold);animation:stemDrop 2.4s ease-in-out infinite;}
+@keyframes stemDrop{0%{top:-100%;}65%{top:100%;}100%{top:100%;}}
+@keyframes riseIn{from{opacity:0;transform:translateY(15px);}to{opacity:1;transform:translateY(0);}}
+
+/* SECTIONS */
+section{padding:5rem 5vw;}
+.section-head{max-width:640px;margin-bottom:2.8rem;}
+.eyebrow{font-size:.73rem;letter-spacing:.2em;text-transform:uppercase;color:var(--bordeaux);display:flex;align-items:center;gap:12px;margin-bottom:1rem;}
+.eyebrow::before{content:'';width:28px;height:1px;background:var(--bordeaux);}
+.section-head h2{font-size:clamp(1.9rem,3.8vw,3rem);line-height:1.12;font-weight:300;}
+.section-head p{margin-top:1rem;color:var(--grey);font-size:.95rem;max-width:54ch;line-height:1.75;}
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .9s ease,transform .9s ease;}
+.reveal.visible{opacity:1;transform:none;}
+
+/* O NAS — steps grid */
+.steps-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);border:1px solid var(--line);}
+@media(max-width:640px){.steps-grid{grid-template-columns:1fr;}}
+.step-item{background:var(--paper);padding:2.6rem 2.2rem;}
+.step-num{font-family:'Cormorant Garamond',serif;font-style:italic;color:var(--gold);font-size:1.4rem;margin-bottom:.7rem;display:block;}
+.step-item h3{font-size:1.18rem;font-weight:400;margin-bottom:.5rem;}
+.step-item p{color:var(--grey);font-size:.92rem;line-height:1.75;}
+
+/* GALERIA */
+.gallery-mosaic{display:grid;grid-template-columns:1fr 1.35fr 1fr;gap:3px;background:var(--line);}
+@media(max-width:640px){.gallery-mosaic{grid-template-columns:1fr 1fr;}}
+.gallery-mosaic figure{overflow:hidden;aspect-ratio:3/4;background:#111;position:relative;}
+.gallery-mosaic figure:nth-child(2){aspect-ratio:2/3;}
+.gallery-mosaic img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s cubic-bezier(.16,.84,.44,1);}
+.gallery-mosaic figure:hover img{transform:scale(1.06);}
+.iris-ph{width:100%;height:100%;display:flex;align-items:center;justify-content:center;}
+.gallery-note{margin-top:1.3rem;font-family:'Cormorant Garamond',serif;font-style:italic;color:var(--grey);font-size:.93rem;}
+
+/* PRODUKTY */
+.product-cat-title{font-family:'Cormorant Garamond',serif;font-size:1.25rem;font-weight:400;margin-bottom:1.4rem;padding-bottom:.8rem;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:1rem;}
+.product-cat-title::before{content:'';width:22px;height:1px;background:var(--bordeaux);}
+.products-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);margin-bottom:3rem;}
+.product-card{background:var(--paper);padding:1.7rem 1.4rem;}
+.product-name{font-size:.92rem;font-weight:400;line-height:1.4;}
+.product-sub{font-size:.78rem;color:var(--grey);margin-top:.2rem;}
+.product-price{font-family:'Cormorant Garamond',serif;font-style:italic;color:var(--gold);font-size:1.2rem;margin-top:.7rem;}
+
+/* DARK SECTION */
+.section-dark{background:var(--ink);color:#fff;}
+.section-dark .eyebrow{color:var(--gold);}
+.section-dark .eyebrow::before{background:var(--gold);}
+.section-dark .section-head h2{color:#fff;}
+.section-dark .section-head p{color:rgba(255,255,255,.6);}
+.dark-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.1);}
+@media(max-width:640px){.dark-grid{grid-template-columns:1fr;}}
+.dark-card{background:var(--ink);padding:2.2rem 1.8rem;}
+.dark-card h3{color:#fff;font-size:1.08rem;font-weight:400;margin-bottom:.6rem;}
+.dark-card p{color:rgba(255,255,255,.55);font-size:.91rem;line-height:1.75;}
+.feat-list{list-style:none;display:flex;flex-direction:column;gap:.85rem;margin-top:2.4rem;}
+.feat-list li{color:rgba(255,255,255,.7);font-size:.93rem;padding-left:1.4rem;position:relative;}
+.feat-list li::before{content:'–';position:absolute;left:0;color:var(--gold);}
+
+/* ZWIERZETA */
+.animals-layout{display:grid;grid-template-columns:1.1fr 1fr;gap:4.5rem;align-items:start;}
+@media(max-width:720px){.animals-layout{grid-template-columns:1fr;gap:2.5rem;}}
+.reason-list{display:flex;flex-direction:column;gap:1.5rem;margin-top:.5rem;}
+.reason{display:flex;gap:1.1rem;}
+.reason-num{font-family:'Cormorant Garamond',serif;font-style:italic;color:var(--bordeaux);font-size:1.3rem;flex:none;width:2rem;}
+.reason h4{font-size:.98rem;font-weight:400;margin-bottom:.25rem;}
+.reason p{color:var(--grey);font-size:.91rem;line-height:1.7;}
+.animals-panel{background:#fafafa;border:1px solid var(--line);padding:2.4rem 2rem;}
+.animals-panel h3{font-size:1.2rem;font-weight:400;margin-bottom:1rem;}
+.animals-panel p{color:var(--grey);font-size:.92rem;line-height:1.75;margin-bottom:1.4rem;}
+
+/* CIEKAWOSTKI */
+.facts-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);}
+.fact-item{background:var(--paper);padding:2rem 1.8rem;}
+.fact-icon{font-size:1.4rem;margin-bottom:.9rem;display:block;}
+.fact-item p{color:var(--grey);font-size:.91rem;line-height:1.75;}
+.fact-item strong{color:var(--ink);font-weight:500;}
+
+/* BON */
+.voucher-layout{display:grid;grid-template-columns:1.15fr 1fr;gap:4rem;align-items:start;}
+@media(max-width:720px){.voucher-layout{grid-template-columns:1fr;gap:2.5rem;}}
+.voucher-card{background:var(--ink);color:#fff;padding:3rem 2.6rem;position:relative;overflow:hidden;}
+.voucher-card::before{content:'';position:absolute;top:-50%;right:-25%;width:280px;height:280px;border-radius:50%;background:radial-gradient(circle,rgba(107,30,46,.4),transparent 70%);pointer-events:none;}
+.voucher-card::after{content:'';position:absolute;bottom:-35%;left:-15%;width:200px;height:200px;border-radius:50%;background:radial-gradient(circle,rgba(169,128,90,.14),transparent 70%);pointer-events:none;}
+.voucher-eyebrow{font-size:.7rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:.9rem;}
+.voucher-card h3{font-size:clamp(1.5rem,3vw,2rem);font-weight:300;line-height:1.15;color:#fff;margin-bottom:.9rem;position:relative;z-index:1;}
+.voucher-card p{color:rgba(255,255,255,.65);font-size:.91rem;margin-bottom:1.7rem;position:relative;z-index:1;line-height:1.75;}
+.voucher-ctas{display:flex;gap:.8rem;flex-wrap:wrap;position:relative;z-index:1;}
+.voucher-details h3{font-size:1.3rem;font-weight:400;margin-bottom:.9rem;}
+.voucher-details p{color:var(--grey);font-size:.93rem;margin-bottom:1rem;line-height:1.75;}
+.voucher-list{list-style:none;display:flex;flex-direction:column;gap:.5rem;}
+.voucher-list li{font-size:.91rem;color:var(--grey);padding-left:1.2rem;position:relative;}
+.voucher-list li::before{content:'–';position:absolute;left:0;color:var(--bordeaux);}
+
+/* CONTACT */
+.contact-layout{display:grid;grid-template-columns:1.1fr .9fr;gap:4.5rem;align-items:start;}
+@media(max-width:720px){.contact-layout{grid-template-columns:1fr;gap:2.5rem;}}
+.contact-ctas{margin-top:1.8rem;display:flex;flex-direction:column;gap:.8rem;max-width:260px;}
+.contact-note{margin-top:1.3rem;color:var(--grey);font-size:.87rem;line-height:1.7;}
+.social-links{margin-top:1.8rem;display:flex;gap:.8rem;flex-wrap:wrap;}
+.social-links a{font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--bordeaux);border:1px solid var(--bordeaux);padding:.4rem .85rem;transition:background .2s,color .2s;}
+.social-links a:hover{background:var(--bordeaux);color:#fff;}
+.contact-panel{background:var(--bordeaux);color:#fff;padding:2.8rem 2.4rem;}
+.contact-panel h3{font-size:1.45rem;font-weight:300;margin-bottom:.9rem;color:#fff;}
+.contact-panel p{color:rgba(255,255,255,.72);font-size:.91rem;margin-bottom:1.6rem;line-height:1.75;}
+.contact-line{padding:.72rem 0;border-top:1px solid rgba(255,255,255,.18);display:flex;justify-content:space-between;font-size:.85rem;color:rgba(255,255,255,.85);gap:1rem;flex-wrap:wrap;}
+.contact-line:last-child{border-bottom:1px solid rgba(255,255,255,.18);}
+.contact-line a{color:#fff;text-decoration:underline;text-underline-offset:3px;}
+
+/* CROSSLINKS */
+.crosslinks{background:#fafafa;border-top:1px solid var(--line);}
+.crosslinks-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-top:2rem;}
+@media(max-width:640px){.crosslinks-grid{grid-template-columns:1fr;}}
+.crosslink-card{background:var(--paper);padding:2rem 1.8rem;display:flex;flex-direction:column;gap:.6rem;}
+.crosslink-card .tag{font-size:.68rem;letter-spacing:.15em;text-transform:uppercase;color:var(--gold);}
+.crosslink-card h3{font-size:1.05rem;font-weight:400;}
+.crosslink-card p{color:var(--grey);font-size:.88rem;line-height:1.65;flex:1;}
+.crosslink-card a.link-arrow{font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--bordeaux);display:flex;align-items:center;gap:.5rem;margin-top:.5rem;}
+.crosslink-card a.link-arrow::after{content:'→';}
+
+/* FOOTER */
+footer{padding:2.6rem 5vw;border-top:1px solid var(--line);text-align:center;color:var(--grey);font-size:.78rem;}
+.footer-links{margin-top:.7rem;display:flex;justify-content:center;gap:1.4rem;flex-wrap:wrap;}
+footer a{text-decoration:underline;text-underline-offset:3px;color:var(--grey);}
+footer a:hover{color:var(--bordeaux);}
+
+/* COOKIE */
+#cookieBar{position:fixed;left:0;right:0;bottom:0;z-index:200;background:var(--ink);color:#fff;padding:.9rem 5vw;display:flex;align-items:center;justify-content:space-between;gap:1.4rem;flex-wrap:wrap;font-size:.82rem;box-shadow:0 -2px 12px rgba(0,0,0,.2);}
+#cookieBar a{color:#fff;text-decoration:underline;}
+a:focus-visible,button:focus-visible{outline:2px solid var(--bordeaux);outline-offset:3px;}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav">
+  <a href="/pl/" class="logo">
+    <img src="../images/logo-v2.png" alt="EYE C U Iris Photo logo">
+    <span>EYE C U®</span>
+  </a>
+  <div class="nav-right">
+    <div class="nav-links" id="navLinks">
+      <a href="#o-nas" onclick="closeMenu()">O EYE C U</a>
+      <a href="#galeria" onclick="closeMenu()">Galeria</a>
+      <a href="#produkty" onclick="closeMenu()">Produkty</a>
+      <a href="#eventy" onclick="closeMenu()">Eventy</a>
+      <a href="#zwierzeta" onclick="closeMenu()">Zwierzęta</a>
+      <a href="#ciekawostki" onclick="closeMenu()">Ciekawostki</a>
+      <a href="#bon" onclick="closeMenu()">Bon</a>
+      <a href="#kontakt" onclick="closeMenu()">Kontakt</a>
+    </div>
+    <div class="lang-bar lang-desktop">
+      <a href="/pl/" class="active">PL</a><span>·</span>
+      <a href="/en/">EN</a><span>·</span>
+      <a href="/fr/">FR</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+  </div>
+</nav>
+<div class="lang-mobile-wrap" id="langMobileWrap">
+  <div class="lang-bar" style="color:rgba(255,255,255,.7);">
+    <a href="/pl/" style="color:var(--bordeaux);font-weight:500;">PL</a><span>·</span>
+    <a href="/en/">EN</a><span>·</span>
+    <a href="/fr/">FR</a>
+  </div>
+</div>
+
+<!-- HERO -->
+<header class="hero" id="top">
+  <div class="hero-bg"></div>
+  <div class="iris-ring"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Fotografia tęczówki oka · Poznań i Wielkopolska</p>
+    <h1>Zdjęcie tęczówki oka —<br><em>unikalne jak Ty.</em></h1>
+    <p class="hero-sub">Profesjonalna makrofotografia tęczówki z dojazdem do Ciebie w Poznaniu i Wielkopolsce. Biżuteria ze zdjęciem tęczówki, WallArt, eventy, zwierzęta.</p>
+    <div class="hero-ctas">
+      <a href="#kontakt" class="btn btn-solid">Umów sesję</a>
+      <a href="#o-nas" class="btn btn-ghost-light">Odkryj</a>
+    </div>
+  </div>
+  <div class="scroll-cue"><div class="stem"></div></div>
+</header>
+
+<!-- O EYE C U -->
+<section id="o-nas">
+  <div class="section-head reveal">
+    <div class="eyebrow">O EYE C U</div>
+    <h2>„Oko jako dzieło sztuki."</h2>
+    <p>Specjalizujemy się w makrofotografii tęczówki oka w Poznaniu i Wielkopolsce. Przyjeżdżamy do Ciebie — do domu, biura lub na event. Efektem sesji jest unikalne zdjęcie tęczówki oka oraz możliwość zamówienia biżuterii lub WallArt na jego podstawie.</p>
+  </div>
+  <div class="steps-grid reveal">
+    <div class="step-item">
+      <span class="step-num">01</span>
+      <h3>Rezerwacja</h3>
+      <p>Kontaktujesz się z nami mailowo, telefonicznie lub przez media społecznościowe. Ustalamy termin i miejsce sesji — dojeżdżamy do Ciebie na terenie Poznania i Wielkopolski.</p>
+    </div>
+    <div class="step-item">
+      <span class="step-num">02</span>
+      <h3>Sesja makrofotografii tęczówki</h3>
+      <p>Sesja trwa ok. 20–30 minut. Zalecamy brak soczewek kontaktowych. Procedura jest całkowicie nieinwazyjna i bezbolesna — po prostu patrzysz w obiektyw.</p>
+    </div>
+    <div class="step-item">
+      <span class="step-num">03</span>
+      <h3>Wybór produktu</h3>
+      <p>Wybierz sposób uwiecznienia swojej tęczówki: biżuteria (naszyjnik, bransoletka, kolczyki), blok akrylowy, WallArt na metalu lub klasyczne zdjęcie w wysokiej rozdzielczości.</p>
+    </div>
+    <div class="step-item">
+      <span class="step-num">04</span>
+      <h3>Dostawa</h3>
+      <p>Zdjęcia w kilka dni roboczych. Biżuteria i WallArt w ok. 10 dni roboczych. Dostawa w Poznaniu bezpłatna, wysyłka na terenie całej Polski i za granicę.</p>
+    </div>
+  </div>
+</section>
+
+<!-- GALERIA -->
+<section id="galeria" style="padding-top:0;">
+  <div class="section-head reveal">
+    <div class="eyebrow">Galeria</div>
+    <h2>Sztuka ukryta w oku.</h2>
+    <p>Makrofotografia tęczówki ujawnia struktury niewidoczne gołym okiem — pejzaże, tekstury i kolory, których się nie spodziewasz.</p>
+  </div>
+  <div class="gallery-mosaic reveal">
+    <figure>
+      <!-- Zastąp prawdziwym zdjęciem: <img src="../images/iris-1.jpg" alt="Zdjęcie tęczówki oka - makrofotografia EYE C U Poznań"> -->
+      <div class="iris-ph" style="background:radial-gradient(ellipse at 50% 50%,#2a1018 0%,#120608 55%,#08040a 100%);">
+        <svg viewBox="0 0 140 140" width="90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="70" cy="70" r="64" fill="none" stroke="#A9805A" stroke-width=".7"/><circle cx="70" cy="70" r="46" fill="none" stroke="#A9805A" stroke-width=".5"/><circle cx="70" cy="70" r="22" fill="rgba(107,30,46,.5)"/><line x1="70" y1="6" x2="70" y2="134" stroke="#A9805A" stroke-width=".35"/><line x1="6" y1="70" x2="134" y2="70" stroke="#A9805A" stroke-width=".35"/></svg>
+      </div>
+    </figure>
+    <figure>
+      <div class="iris-ph" style="background:radial-gradient(ellipse at 50% 45%,#3a2008 0%,#1a1006 55%,#0e0a04 100%);">
+        <svg viewBox="0 0 140 140" width="110" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="70" cy="70" r="64" fill="none" stroke="#A9805A" stroke-width=".7"/><circle cx="70" cy="70" r="50" fill="none" stroke="#A9805A" stroke-width=".45"/><circle cx="70" cy="70" r="34" fill="none" stroke="#6B1E2E" stroke-width=".55"/><circle cx="70" cy="70" r="16" fill="rgba(14,14,14,.85)"/></svg>
+      </div>
+    </figure>
+    <figure>
+      <div class="iris-ph" style="background:radial-gradient(ellipse at 50% 50%,#142030 0%,#0c1520 55%,#070c12 100%);">
+        <svg viewBox="0 0 140 140" width="90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="70" cy="70" r="64" fill="none" stroke="#A9805A" stroke-width=".7"/><circle cx="70" cy="70" r="42" fill="none" stroke="#A9805A" stroke-width=".5"/><circle cx="70" cy="70" r="18" fill="rgba(107,30,46,.45)"/></svg>
+      </div>
+    </figure>
+    <figure>
+      <div class="iris-ph" style="background:radial-gradient(ellipse at 50% 50%,#201408 0%,#100a04 55%,#080500 100%);">
+        <svg viewBox="0 0 140 140" width="80" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="70" cy="70" r="64" fill="none" stroke="#A9805A" stroke-width=".7"/><circle cx="70" cy="70" r="44" fill="none" stroke="#A9805A" stroke-width=".4"/><circle cx="70" cy="70" r="20" fill="rgba(14,14,14,.9)"/></svg>
+      </div>
+    </figure>
+    <figure>
+      <div class="iris-ph" style="background:radial-gradient(ellipse at 50% 50%,#1e0a14 0%,#120610 55%,#080408 100%);">
+        <svg viewBox="0 0 140 140" width="90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="70" cy="70" r="64" fill="none" stroke="#A9805A" stroke-width=".7"/><circle cx="70" cy="70" r="48" fill="none" stroke="#6B1E2E" stroke-width=".5"/><circle cx="70" cy="70" r="24" fill="rgba(107,30,46,.4)"/></svg>
+      </div>
+    </figure>
+    <figure>
+      <div class="iris-ph" style="background:radial-gradient(ellipse at 50% 50%,#081820 0%,#040e16 55%,#02080e 100%);">
+        <svg viewBox="0 0 140 140" width="90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="70" cy="70" r="64" fill="none" stroke="#A9805A" stroke-width=".7"/><circle cx="70" cy="70" r="40" fill="none" stroke="#A9805A" stroke-width=".45"/><circle cx="70" cy="70" r="16" fill="rgba(14,14,14,.88)"/></svg>
+      </div>
+    </figure>
+  </div>
+  <p class="gallery-note reveal">Zdjęcia z sesji EYE C U — zastąp placeholdery prawdziwymi fotografiami tęczówek z Twojego portfolio.</p>
+</section>
+
+<!-- PRODUKTY -->
+<section id="produkty" style="background:#fafafa;border-top:1px solid var(--line);border-bottom:1px solid var(--line);">
+  <div class="section-head reveal">
+    <div class="eyebrow">Produkty</div>
+    <h2>Twoja tęczówka, w każdej formie.</h2>
+    <p>Biżuteria ze zdjęciem tęczówki oka, bloki akrylowe i WallArt — wszystko wykonywane ręcznie na zamówienie w naszej pracowni w Poznaniu.</p>
+  </div>
+
+  <div class="reveal">
+    <div class="product-cat-title">Biżuteria ze zdjęciem tęczówki</div>
+    <div class="products-grid">
+      <div class="product-card"><div class="product-name">Naszyjnik Lila</div><div class="product-sub">S925 pozłacany</div><div class="product-price">529 zł</div></div>
+      <div class="product-card"><div class="product-name">Naszyjnik Sofia 16mm</div><div class="product-sub">Stal nierdzewna</div><div class="product-price">239 zł</div></div>
+      <div class="product-card"><div class="product-name">Naszyjnik Sofia 10mm</div><div class="product-sub">Stal nierdzewna</div><div class="product-price">239 zł</div></div>
+      <div class="product-card"><div class="product-name">Naszyjnik Sofia Dwustronny</div><div class="product-sub">Stal nierdzewna</div><div class="product-price">269 zł</div></div>
+      <div class="product-card"><div class="product-name">Bransoletka Sofia nr 1</div><div class="product-sub">Stal nierdzewna</div><div class="product-price">239 zł</div></div>
+      <div class="product-card"><div class="product-name">Bransoletka Sofia nr 3</div><div class="product-sub">Stal nierdzewna</div><div class="product-price">239 zł</div></div>
+      <div class="product-card"><div class="product-name">Bransoletka Sofia Skórzana</div><div class="product-sub">Skóra naturalna</div><div class="product-price">299 zł</div></div>
+      <div class="product-card"><div class="product-name">Kolczyki Sofia Wiszące</div><div class="product-sub">Stal nierdzewna</div><div class="product-price">169 zł</div></div>
+      <div class="product-card"><div class="product-name">Kolczyki Sofia</div><div class="product-sub">Stal nierdzewna</div><div class="product-price">169 zł</div></div>
+      <div class="product-card"><div class="product-name">Pierścionek Sofia</div><div class="product-sub">Stal nierdzewna</div><div class="product-price">169 zł</div></div>
+      <div class="product-card"><div class="product-name">Spinki do mankietów</div><div class="product-sub">Stal nierdzewna</div><div class="product-price">169 zł</div></div>
+      <div class="product-card"><div class="product-name">Brelok Duo Premium</div><div class="product-sub">Dwustronny</div><div class="product-price">209 zł</div></div>
+      <div class="product-card"><div class="product-name">Brelok</div><div class="product-sub">Standard</div><div class="product-price">139 zł</div></div>
+    </div>
+    <div class="product-cat-title">WallArt & Akcesoria</div>
+    <div class="products-grid">
+      <div class="product-card"><div class="product-name">Blok akrylowy 10×10 cm</div><div class="product-price">299 zł</div></div>
+      <div class="product-card"><div class="product-name">Blok akrylowy 20×20 cm</div><div class="product-price">599 zł</div></div>
+      <div class="product-card"><div class="product-name">WallArt Akryl na metalu</div><div class="product-sub">Różne rozmiary</div><div class="product-price" style="font-size:.85rem;font-style:normal;font-family:'Jost',sans-serif;color:var(--grey);">wg cennika</div></div>
+      <div class="product-card"><div class="product-name">WallArt Alu-Dibond</div><div class="product-sub">Aluminium szczotkowane</div><div class="product-price" style="font-size:.85rem;font-style:normal;font-family:'Jost',sans-serif;color:var(--grey);">wg cennika</div></div>
+    </div>
+    <p style="font-size:.84rem;color:var(--grey);">Wszystkie produkty wykonywane ręcznie na zamówienie w Poznaniu. Skontaktuj się z nami w sprawie aktualnego cennika WallArt.</p>
+  </div>
+</section>
+
+<!-- EVENTY -->
+<section id="eventy" class="section-dark">
+  <div class="section-head reveal">
+    <div class="eyebrow">Eventy</div>
+    <h2>Fotografia tęczówki na Twoim wydarzeniu.</h2>
+    <p>Stoisko EYE C U to atrakcja, której Twoi goście nie zapomną. Każdy uczestnik zabiera unikalne zdjęcie własnej tęczówki oka jako pamiątkę wieczoru.</p>
+  </div>
+  <div class="dark-grid reveal">
+    <div class="dark-card">
+      <h3>Wesela i uroczystości</h3>
+      <p>Niepowtarzalna pamiątka dla gości zamiast konwencjonalnej fotobudki. Zdjęcie tęczówki — elegancko, oryginalnie, emocjonalnie.</p>
+    </div>
+    <div class="dark-card">
+      <h3>Eventy korporacyjne</h3>
+      <p>Wyróżnij swoje wydarzenie czymś, o czym mówią po powrocie. Nasze stoisko pasuje do każdej skali — od 20 do 200+ gości.</p>
+    </div>
+    <div class="dark-card">
+      <h3>Targi i pop-upy</h3>
+      <p>Zatrzymaj ruch przy stoisku i zostaw gościom coś personalnego. Elastyczne pakiety, spersonalizowane wyceny.</p>
+    </div>
+  </div>
+  <ul class="feat-list reveal">
+    <li>Wysokiej jakości zdjęcia tęczówki oka dla każdego uczestnika</li>
+    <li>Eleganckie, dostosowywalnie stoisko fotograficzne</li>
+    <li>Bezproblemowa obsługa — nie zakłócamy przebiegu imprezy</li>
+    <li>Spersonalizowane oferty na każde wydarzenie</li>
+  </ul>
+  <div style="margin-top:2.6rem;" class="reveal">
+    <a href="#kontakt" class="btn btn-ghost-light">Zapytaj o ofertę eventową</a>
+  </div>
+</section>
+
+<!-- ZWIERZETA -->
+<section id="zwierzeta">
+  <div class="section-head reveal">
+    <div class="eyebrow">EYE C U Animals</div>
+    <h2>Fotografia tęczówki Twojego zwierzaka.</h2>
+    <p>Tęczówka psa, kota czy konia jest równie unikalna jak ludzka. Uwieczniamy ją w makro i zamieniamy w dzieło sztuki lub biżuterię — wyjątkową pamiątkę na całe życie.</p>
+  </div>
+  <div class="animals-layout reveal">
+    <div>
+      <div class="reason-list">
+        <div class="reason">
+          <div class="reason-num">01</div>
+          <div><h4>Unikalna pamiątka</h4><p>Każda tęczówka zwierzaka jest jak odcisk palca — niepowtarzalna. Zdjęcie tęczówki oka psa lub kota to ponadczasowa pamiątka.</p></div>
+        </div>
+        <div class="reason">
+          <div class="reason-num">02</div>
+          <div><h4>Dzieło sztuki</h4><p>Intensywne kolory i detale tęczówki tworzą piękny obraz — idealny do dekoracji wnętrz lub jako element biżuterii ze zdjęciem zwierzaka.</p></div>
+        </div>
+        <div class="reason">
+          <div class="reason-num">03</div>
+          <div><h4>Więź emocjonalna</h4><p>Sesja to wyjątkowy sposób na uczczenie wyjątkowej więzi z Twoim pupilem. Każde uchwycone spojrzenie opowiada historię.</p></div>
+        </div>
+        <div class="reason">
+          <div class="reason-num">04</div>
+          <div><h4>Oryginalny prezent</h4><p>Zdjęcie tęczówki zwierzaka jako prezent dla właściciela — poruszający i niepowtarzalny upominek dla każdego miłośnika zwierząt.</p></div>
+        </div>
+      </div>
+      <div style="margin-top:2rem;display:flex;flex-direction:column;gap:.6rem;align-items:flex-start;">
+        <a href="#kontakt" class="btn btn-solid">Zarezerwuj sesję Animals</a>
+        <p style="font-size:.82rem;color:var(--grey);">Podaj adres, imię zwierzaka, jego wiek i rasę.</p>
+      </div>
+    </div>
+    <div class="animals-panel">
+      <h3>Jak wygląda sesja?</h3>
+      <p>Przyjeżdżamy do Ciebie — w miejscu, gdzie zwierzak czuje się bezpiecznie. Sesja jest łagodna i przyjemna, zawsze respektujemy dobro Twojego pupila.</p>
+      <p>Po sesji dostarczamy przetworzone zdjęcia w wysokiej rozdzielczości. Do wyboru: wydruk, blok akrylowy, WallArt lub biżuteria ze zdjęciem tęczówki.</p>
+      <a href="#kontakt" class="btn btn-ghost" style="margin-top:.5rem;">Skontaktuj się</a>
+    </div>
+  </div>
+</section>
+
+<!-- CIEKAWOSTKI -->
+<section id="ciekawostki" style="background:#fafafa;border-top:1px solid var(--line);border-bottom:1px solid var(--line);">
+  <div class="section-head reveal">
+    <div class="eyebrow">Ciekawostki o tęczówce oka</div>
+    <h2>Czy wiedziałeś, że…?</h2>
+  </div>
+  <div class="facts-grid reveal">
+    <div class="fact-item">
+      <span class="fact-icon">👁</span>
+      <p><strong>79% ludzi na świecie ma brązowe oczy</strong> — to zdecydowanie najczęstszy kolor tęczówki na Ziemi.</p>
+    </div>
+    <div class="fact-item">
+      <span class="fact-icon">🧬</span>
+      <p><strong>Niebieskie oczy to mutacja genetyczna</strong> — wszyscy niebieskoocy mają wspólnego przodka, który żył ok. 6–10 tys. lat temu.</p>
+    </div>
+    <div class="fact-item">
+      <span class="fact-icon">💎</span>
+      <p><strong>Szare oczy są rzadkie</strong> — występują głównie u osób pochodzenia wschodnioeuropejskiego i mają mniej melaniny niż niebieskie.</p>
+    </div>
+    <div class="fact-item">
+      <span class="fact-icon">☀️</span>
+      <p><strong>Kolor oczu wpływa na wrażliwość na światło</strong> — ciemne oczy szybciej przystosowują się do nagłych zmian oświetlenia.</p>
+    </div>
+    <div class="fact-item">
+      <span class="fact-icon">🔬</span>
+      <p><strong>Każda tęczówka jest absolutnie unikalna</strong> — żadne dwie osoby nie mają identycznych wzorów tęczówki, nawet bliźnięta jednojajowe.</p>
+    </div>
+    <div class="fact-item">
+      <span class="fact-icon">🎨</span>
+      <p><strong>Tęczówka zmienia się z wiekiem</strong> — kolor i wzory mogą ewoluować, szczególnie w pierwszych latach życia dziecka.</p>
+    </div>
+  </div>
+</section>
+
+<!-- BON PODARUNKOWY -->
+<section id="bon">
+  <div class="section-head reveal">
+    <div class="eyebrow">Bon podarunkowy</div>
+    <h2>Prezent, którego nie można kupić w sklepie.</h2>
+  </div>
+  <div class="voucher-layout reveal">
+    <div class="voucher-card">
+      <div class="voucher-eyebrow">Bon na sesję EYE C U · Fotografia tęczówki oka</div>
+      <h3>Unikalny prezent dla wyjątkowych ludzi.</h3>
+      <p>Bon na makrofotografię tęczówki oka — dla partnerki, partnera, rodziny lub przyjaciół. Pomysł na prezent na urodziny, rocznicę, Walentynki lub bez okazji. Ważny 12 miesięcy.</p>
+      <div class="voucher-ctas">
+        <a href="#kontakt" class="btn btn-solid">Zamów bon</a>
+        <a href="#kontakt" class="btn btn-ghost-light">Pytania</a>
+      </div>
+    </div>
+    <div class="voucher-details">
+      <h3>Co zawiera bon?</h3>
+      <p>Bon uprawnia do pełnej sesji makrofotografii tęczówki oka z dojazdem fotografa oraz dostarczeniem zdjęć w wysokiej rozdzielczości. Możliwość dodania biżuterii lub WallArt.</p>
+      <ul class="voucher-list">
+        <li>Sesja mobilna z dojazdem — Poznań i Wielkopolska</li>
+        <li>Zdjęcia gotowe w ciągu kilku dni roboczych</li>
+        <li>Możliwość dodania biżuterii ze zdjęciem tęczówki</li>
+        <li>Możliwość dodania WallArt lub bloku akrylowego</li>
+        <li>Ważny 12 miesięcy od daty zakupu</li>
+        <li>Dostawa cyfrowa lub pocztą (elegancka koperta)</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- KONTAKT -->
+<section id="kontakt" style="background:#fafafa;border-top:1px solid var(--line);">
+  <div class="section-head reveal">
+    <div class="eyebrow">Kontakt</div>
+    <h2>Gotowy/a zobaczyć swoje oko na nowo?</h2>
+    <p>Napisz do nas, zadzwoń lub odwiedź nasze profile. Odpowiadamy w ciągu 24 godzin. Sesje mobilne z dojazdem do Ciebie — na terenie Poznania dojazd bezpłatny.</p>
+  </div>
+  <div class="contact-layout reveal">
+    <div>
+      <div class="contact-ctas">
+        <a href="mailto:poznan@eyecu-irisphoto.com" class="btn btn-solid">Napisz do nas</a>
+        <a href="tel:+48509151841" class="btn btn-ghost">+48 509 151 841</a>
+      </div>
+      <p class="contact-note">Dostępni w języku polskim, angielskim i francuskim.<br>Sesje mobilne — Poznań, Wielkopolska i okolice.<br>Dojazd na terenie Poznania bezpłatny.</p>
+      <div class="social-links">
+        <a href="https://www.instagram.com/eye_c_u_iris_photo/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com/EYECUIrisPhoto" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.tiktok.com/@eyecuirisphoto" target="_blank" rel="noopener">TikTok</a>
+      </div>
+    </div>
+    <div class="contact-panel">
+      <h3>Poznań i Wielkopolska.</h3>
+      <p>Sesje mobilne — przyjeżdżamy do Ciebie. Wyjazdy poza Wielkopolskę na indywidualną wycenę. Kontaktujemy się szybko.</p>
+      <div class="contact-line"><span>E-mail</span><a href="mailto:poznan@eyecu-irisphoto.com">poznan@eyecu-irisphoto.com</a></div>
+      <div class="contact-line"><span>Telefon</span><a href="tel:+48509151841">+48 509 151 841</a></div>
+      <div class="contact-line"><span>Lokalizacja</span><span>Poznań, Polska</span></div>
+      <div class="contact-line"><span>Instagram</span><a href="https://www.instagram.com/eye_c_u_iris_photo/" target="_blank" rel="noopener">@eye_c_u_iris_photo</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- CROSSLINKS — écosystème EYE C U -->
+<section class="crosslinks">
+  <div class="section-head reveal">
+    <div class="eyebrow">Ekosystem EYE C U®</div>
+    <h2>Więcej z EYE C U.</h2>
+  </div>
+  <div class="crosslinks-grid reveal">
+    <div class="crosslink-card">
+      <span class="tag">B2B · Profesjonaliści</span>
+      <h3>Program partnerski</h3>
+      <p>Jesteś fotografem lub prowadzisz studio? Oferujemy biżuterię ze zdjęciem tęczówki do odsprzedaży oraz partnerstwo w fotografii iris.</p>
+      <a href="https://pro.eye-c-u.eu/pl/" class="link-arrow" target="_blank" rel="noopener">pro.eye-c-u.eu</a>
+    </div>
+    <div class="crosslink-card">
+      <span class="tag">B2C · Biżuteria</span>
+      <h3>Biżuteria z Twoją fotografią</h3>
+      <p>Masz zdjęcie, które chcesz zamienić w biżuterię? Nie musi być tęczówka — każde zdjęcie można oprawić w kabochon szklany.</p>
+      <a href="https://craft.eye-c-u.eu/" class="link-arrow" target="_blank" rel="noopener">craft.eye-c-u.eu</a>
+    </div>
+    <div class="crosslink-card">
+      <span class="tag">Events · Dostęp do zdjęć</span>
+      <h3>Twoje zdjęcia z eventu</h3>
+      <p>Byłeś/aś uczestnikiem naszego eventu? Tutaj znajdziesz zdjęcia zrobione podczas Twojego wydarzenia.</p>
+      <a href="https://event.eye-c-u.eu/" class="link-arrow" target="_blank" rel="noopener">event.eye-c-u.eu</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div>© 2026 EYE C U® sp. z o.o. · Wszelkie prawa zastrzeżone.</div>
+  <div class="footer-links">
+    <a href="https://eye-c-u.eu/">Marka EYE C U®</a>
+    <a href="https://pro.eye-c-u.eu/pl/">Partnerzy B2B</a>
+    <a href="/privacy.html">Polityka prywatności</a>
+    <a href="/terms.html">Regulamin</a>
+  </div>
+  <!-- SEO keywords for Polish search — supplementary text -->
+  <p style="font-size:.72rem;color:#ccc;margin-top:1.4rem;max-width:700px;margin-left:auto;margin-right:auto;">
+    EYE C U® — fotografia tęczówki oka Poznań · zdjęcie tęczówki z dojazdem · makrofotografia tęczówki Wielkopolska · biżuteria ze zdjęciem tęczówki oka · bon podarunkowy fotografia tęczówki · fotografia tęczówki zwierząt Poznań
+  </p>
+</footer>
+
+<!-- COOKIE -->
+<div id="cookieBar">
+  <span style="max-width:62ch;color:rgba(255,255,255,.8);">Ta strona używa niezbędnych plików cookie i ładuje czcionki z Google Fonts. Nie używamy plików śledzących ani reklamowych.</span>
+  <span style="display:flex;gap:1rem;align-items:center;flex:none;">
+    <a href="/privacy.html">Polityka prywatności</a>
+    <button id="cookieAccept" class="btn btn-solid" style="border:none;">Rozumiem</button>
+  </span>
+</div>
+
+<script>
+const navEl=document.getElementById('nav');
+window.addEventListener('scroll',()=>{navEl.classList.toggle('scrolled',window.scrollY>40);});
+const navToggle=document.getElementById('navToggle'),navLinks=document.getElementById('navLinks'),langWrap=document.getElementById('langMobileWrap');
+navToggle.addEventListener('click',()=>{const o=navLinks.classList.toggle('open');navToggle.textContent=o?'✕':'☰';if(langWrap)langWrap.classList.toggle('open',o);});
+function closeMenu(){navLinks.classList.remove('open');if(langWrap)langWrap.classList.remove('open');navToggle.textContent='☰';}
+const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible');});},{threshold:0.1});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+function getCookie(n){return document.cookie.split('; ').find(r=>r.startsWith(n+'='));}
+const bar=document.getElementById('cookieBar');
+if(getCookie('eyecu_cookie_ack'))bar.style.display='none';
+document.getElementById('cookieAccept').addEventListener('click',()=>{const d=new Date();d.setFullYear(d.getFullYear()+1);document.cookie='eyecu_cookie_ack=1; expires='+d.toUTCString()+'; path=/';bar.style.display='none';});
+</script>
+</body>
+</html>
