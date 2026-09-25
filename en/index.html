@@ -34,7 +34,7 @@ section{padding:5rem 5vw;}.section-head{max-width:640px;margin-bottom:2.8rem;}.e
 footer{padding:2.6rem 5vw;border-top:1px solid var(--line);text-align:center;color:var(--grey);font-size:.78rem;}.footer-links{margin-top:.7rem;display:flex;justify-content:center;gap:1.4rem;flex-wrap:wrap;}footer a{text-decoration:underline;text-underline-offset:3px;color:var(--grey);}footer a:hover{color:var(--bordeaux);}
 #cookieBar{position:fixed;left:0;right:0;bottom:0;z-index:200;background:var(--ink);color:#fff;padding:.9rem 5vw;display:flex;align-items:center;justify-content:space-between;gap:1.4rem;flex-wrap:wrap;font-size:.82rem;box-shadow:0 -2px 12px rgba(0,0,0,.2);}#cookieBar a{color:#fff;text-decoration:underline;}a:focus-visible,button:focus-visible{outline:2px solid var(--bordeaux);outline-offset:3px;}
 
-/* HERO IMAGE */.hero-img{position:absolute;z-index:1;top:50%;right:2vw;transform:translateY(-50%);width:min(78svh,42vw);height:auto;aspect-ratio:1/1;object-fit:contain;mix-blend-mode:lighten;pointer-events:none;user-select:none;opacity:0;animation:heroImgIn 1.6s ease .2s forwards;}@keyframes heroImgIn{to{opacity:1;}}@media(max-width:860px){.hero-img{top:4svh;right:auto;left:50%;transform:translateX(-50%);width:min(96vw,62svh);}.hero-content{background:linear-gradient(to top,rgba(14,10,12,.92) 55%,transparent);padding-top:4rem;max-width:none;}}
+/* HERO BANNER */.hero-banner{position:absolute;top:8svh;left:50%;transform:translateX(-50%);z-index:2;width:min(90vw,900px);height:auto;pointer-events:none;user-select:none;opacity:0;animation:heroImgIn 1.6s ease .2s forwards;}@keyframes heroImgIn{to{opacity:1;}}@media(max-width:860px){.hero-banner{top:10svh;width:92vw;}.hero-content{background:linear-gradient(to top,rgba(0,0,0,.92) 55%,transparent);padding-top:4rem;max-width:none;}}
 </style>
 </head>
 <body>
@@ -64,7 +64,7 @@ footer{padding:2.6rem 5vw;border-top:1px solid var(--line);text-align:center;col
 </div>
 
 <header class="hero" id="top">
-  <div class="hero-bg"></div><img class="hero-img" src="/images/Montage_Duo-1600.webp" srcset="/images/Montage_Duo-1000.webp 1000w, /images/Montage_Duo-1600.webp 1600w, /images/Montage_Duo-2400.webp 2400w" sizes="(max-width:860px) 96vw, 58vw" width="1600" height="1600" fetchpriority="high" decoding="async" alt="Two irises – EYE C U macro photography">
+  <div class="hero-bg"></div><img class="hero-banner" src="/images/family5_names.webp" fetchpriority="high" decoding="async" alt="Family with iris photographs – EYE C U Iris Photo">
   <div class="hero-content">
     <p class="hero-eyebrow">Iris Eye Photography · Poznań, Poland</p>
     <h1>Your eye,<br><em>revealed.</em></h1>
