@@ -198,6 +198,8 @@ footer a:hover{color:var(--bordeaux);}
 #cookieBar{position:fixed;left:0;right:0;bottom:0;z-index:200;background:var(--ink);color:#fff;padding:.9rem 5vw;display:flex;align-items:center;justify-content:space-between;gap:1.4rem;flex-wrap:wrap;font-size:.82rem;box-shadow:0 -2px 12px rgba(0,0,0,.2);}
 #cookieBar a{color:#fff;text-decoration:underline;}
 a:focus-visible,button:focus-visible{outline:2px solid var(--bordeaux);outline-offset:3px;}
+
+/* HERO IMAGE */.hero-img{position:absolute;z-index:1;top:50%;right:2vw;transform:translateY(-50%);width:min(92svh,58vw);height:auto;aspect-ratio:1/1;object-fit:contain;mix-blend-mode:lighten;pointer-events:none;user-select:none;opacity:0;animation:heroImgIn 1.6s ease .2s forwards;}@keyframes heroImgIn{to{opacity:1;}}@media(max-width:860px){.hero-img{top:4svh;right:auto;left:50%;transform:translateX(-50%);width:min(96vw,62svh);}.hero-content{background:linear-gradient(to top,rgba(14,10,12,.92) 55%,transparent);padding-top:4rem;max-width:none;}}
 </style>
 </head>
 <body>
@@ -238,7 +240,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--bordeaux);outline-o
 <!-- HERO -->
 <header class="hero" id="top">
   <div class="hero-bg"></div>
-  <div class="iris-ring"></div>
+  <img class="hero-img" src="/images/Montage_Duo-1600.webp" srcset="/images/Montage_Duo-1000.webp 1000w, /images/Montage_Duo-1600.webp 1600w, /images/Montage_Duo-2400.webp 2400w" sizes="(max-width:860px) 96vw, 58vw" width="1600" height="1600" fetchpriority="high" decoding="async" alt="Dwie tęczówki oka – makrofotografia EYE C U">
   <div class="hero-content">
     <p class="hero-eyebrow">Fotografia tęczówki oka · Poznań i Wielkopolska. Wyłącznie usługa mobilna z dojazdem do klienta.</p>
     <h1>Zdjęcie tęczówki oka —<br><em>unikalne jak Ty.</em></h1>
