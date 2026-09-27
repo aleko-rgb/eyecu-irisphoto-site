@@ -254,6 +254,22 @@ footer{padding:2.6rem 5vw;border-top:1px solid var(--line);text-align:center;col
 <button type="button" class="pricelist-close" aria-label="Close">×</button>
 <h3>EYE C U — Full Price List</h3>
 <p class="pl-notes">Prices are <strong>per iris</strong>. Each additional iris on the same product: <strong>+80 zł</strong>. Photo effect (colour, background, style) always included, free of charge. Shipping is not included and depends on destination country. Custom formats and personalisation available on request.</p>
+<h4>Photographs</h4>
+<table class="pl-table">
+<thead><tr><th>Format</th><th>Price</th></tr></thead>
+<tbody>
+<tr><td>Photo A5</td><td class="price">229 zł</td></tr>
+<tr><td>Polaroid photo</td><td class="price">129 zł</td></tr>
+</tbody>
+</table>
+<h4>Acrylic Blocks</h4>
+<table class="pl-table">
+<thead><tr><th>Format</th><th>Price</th></tr></thead>
+<tbody>
+<tr><td>10×10 cm</td><td class="price">299 zł</td></tr>
+<tr><td>20×20 cm</td><td class="price">599 zł</td></tr>
+</tbody>
+</table>
 <h4>WallArt — Acrylic on Metal &amp; Alu-Dibond</h4>
 <table class="pl-table">
 <thead><tr><th>Format</th><th>Acrylic on Metal</th><th>Alu-Dibond</th></tr></thead>
@@ -268,14 +284,6 @@ footer{padding:2.6rem 5vw;border-top:1px solid var(--line);text-align:center;col
 <tr><td>90×30 cm</td><td class="price">1199 zł</td><td class="price">1499 zł</td></tr>
 <tr><td>120×30 cm</td><td class="price">1599 zł</td><td class="price">2299 zł</td></tr>
 <tr><td>120×40 cm</td><td class="price">1799 zł</td><td class="price">2399 zł</td></tr>
-</tbody>
-</table>
-<h4>Acrylic Blocks</h4>
-<table class="pl-table">
-<thead><tr><th>Format</th><th>Price</th></tr></thead>
-<tbody>
-<tr><td>10×10 cm</td><td class="price">299 zł</td></tr>
-<tr><td>20×20 cm</td><td class="price">599 zł</td></tr>
 </tbody>
 </table>
 <h4>Jewellery</h4>
@@ -294,14 +302,6 @@ footer{padding:2.6rem 5vw;border-top:1px solid var(--line);text-align:center;col
 <tr><td>Earrings Sofia</td><td class="price">169 zł</td></tr>
 <tr><td>Minimalist keyring</td><td class="price">139 zł</td></tr>
 <tr><td>Keyring Duo Premium</td><td class="price">209 zł</td></tr>
-</tbody>
-</table>
-<h4>Photographs</h4>
-<table class="pl-table">
-<thead><tr><th>Format</th><th>Price</th></tr></thead>
-<tbody>
-<tr><td>Photo A5</td><td class="price">229 zł</td></tr>
-<tr><td>Polaroid photo</td><td class="price">129 zł</td></tr>
 </tbody>
 </table>
 <p class="pl-footnote">Price list valid from 19.03.2025. Gift cards may be purchased for any amount.</p>
@@ -327,13 +327,13 @@ footer{padding:2.6rem 5vw;border-top:1px solid var(--line);text-align:center;col
 </div>
 <form class="vpopup-form" id="vpopup-form">
 <input type="email" name="email" required placeholder="Your email address / Adres e-mail">
-<input type="number" name="amount" required min="50" step="10" placeholder="Amount in zł / Kwota w zł">
 <button type="submit" class="btn btn-solid" id="vpopup-submit">Send / Wyślij</button>
 </form>
 <div class="vpopup-ok" data-lang="en">Thank you! Please check your email — you will receive the payment instructions shortly.</div>
 <div class="vpopup-ok" data-lang="pl" style="display:none;">Dziękujemy! Sprawdź swoją skrzynkę — otrzymasz instrukcje płatności w ciągu kilku minut.</div>
 <div class="vpopup-err" style="display:none;color:var(--bordeaux);margin-top:.7rem;font-size:.9rem;">Something went wrong. Please try again or email us directly at <a href="mailto:poznan@eyecu-irisphoto.com">poznan@eyecu-irisphoto.com</a>.</div>
-<p class="vpopup-legal">By clicking Send, you agree to our <a href="/en/privacy.html">Privacy Policy</a> and <a href="/en/terms.html">Terms &amp; Conditions</a>. Payment for the voucher is processed once we confirm receipt. Under Polish law, you have 14 days to withdraw from the purchase (from the date the voucher is issued), provided the voucher has not yet been used. Bank details will be included in the confirmation email.</p>
+<p class="vpopup-legal" data-lang="en">By clicking Send, you agree to our <a href="/en/privacy.html">Privacy Policy</a> and <a href="/en/terms.html">Terms &amp; Conditions</a>. Payment for the voucher is processed once we confirm receipt. Under Polish law, you have 14 days to withdraw from the purchase (from the date the voucher is issued), provided the voucher has not yet been used. Bank details will be included in the confirmation email.</p>
+<p class="vpopup-legal" data-lang="pl" style="display:none;">Klikając „Wyślij", akceptujesz naszą <a href="/en/privacy.html">Politykę prywatności</a> oraz <a href="/en/terms.html">Regulamin</a>. Płatność za voucher zostanie przetworzona po naszym potwierdzeniu odbioru. Zgodnie z polskim prawem, masz 14 dni na odstąpienie od zakupu (od daty wystawienia vouchera), pod warunkiem że voucher nie został jeszcze wykorzystany. Dane bankowe zostaną podane w wiadomości potwierdzającej.</p>
 </div></div></div>
 <div id="lightbox" class="lightbox"><button class="lb-close" aria-label="Close">×</button><img id="lightbox-img" src="" alt=""></div>
 <script>
@@ -346,6 +346,6 @@ document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 function getCookie(n){return document.cookie.split('; ').find(r=>r.startsWith(n+'='));}
 const bar=document.getElementById('cookieBar');if(getCookie('eyecu_cookie_ack'))bar.style.display='none';
 document.getElementById('cookieAccept').addEventListener('click',()=>{const d=new Date();d.setFullYear(d.getFullYear()+1);document.cookie='eyecu_cookie_ack=1; expires='+d.toUTCString()+'; path=/';bar.style.display='none';});
-/* Gallery random shuffle */(function(){var imgs=document.querySelectorAll(".gallery-mosaic figure img");if(imgs.length<2)return;function step(){var i=Math.floor(Math.random()*imgs.length);var j;do{j=Math.floor(Math.random()*imgs.length);}while(j===i);var a=imgs[i],b=imgs[j];a.classList.add("gswap");b.classList.add("gswap");setTimeout(function(){var sa=a.getAttribute("src"),sb=b.getAttribute("src");a.setAttribute("src",sb);b.setAttribute("src",sa);a.classList.remove("gswap");b.classList.remove("gswap");},900);}if(!window.matchMedia||!window.matchMedia("(prefers-reduced-motion: reduce)").matches){setInterval(step,2200);}})();/* Jewellery slideshow */(function(){var s=document.querySelectorAll(".jewellery-slideshow img");if(s.length<2)return;if(window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches)return;var i=0;setInterval(function(){s[i].classList.remove("active");i=(i+1)%s.length;s[i].classList.add("active");},3500);})();/* Product photo cycles */(function(){var cards=document.querySelectorAll(".pcard-photo");if(window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches)return;cards.forEach(function(el){var im=el.querySelectorAll("img");if(im.length<2)return;var i=0;setTimeout(function(){setInterval(function(){im[i].classList.remove("active");i=(i+1)%im.length;im[i].classList.add("active");},2600+Math.random()*1800);},Math.random()*2000);});})();/* Lightbox */(function(){var lb=document.getElementById("lightbox");var lbi=document.getElementById("lightbox-img");if(!lb||!lbi)return;function closeLB(){lb.classList.remove("open");document.body.style.overflow="";}var pricelist=document.getElementById("pricelist");if(pricelist){var openBtn=document.getElementById("pricelistOpen");if(openBtn){openBtn.addEventListener("click",function(){pricelist.classList.add("open");document.body.style.overflow="hidden";});}function closePL(){pricelist.classList.remove("open");document.body.style.overflow="";}pricelist.addEventListener("click",function(e){if(e.target===pricelist||e.target.classList.contains("pricelist-close"))closePL();});document.addEventListener("keydown",function(e){if(e.key==="Escape"&&pricelist.classList.contains("open"))closePL();});}document.addEventListener("click",function(e){var el=e.target.closest(".pcard-photo");if(el){var active=el.querySelector("img.active")||el.querySelector("img");if(active&&active.src){lbi.src=active.getAttribute("data-full")||active.src;lb.classList.add("open");document.body.style.overflow="hidden";return;}}if(lb.classList.contains("open")&&(e.target===lb||e.target.classList.contains("lb-close"))){closeLB();}});document.addEventListener("keydown",function(e){if(e.key==="Escape")closeLB();});})();/* E-voucher popup */(function(){var pop=document.getElementById("vpopup");if(!pop)return;var WEBHOOK_URL="https://script.google.com/macros/s/REPLACE_WITH_YOUR_DEPLOYMENT_ID/exec";var currentLang="en";function showLang(lang){currentLang=lang;pop.querySelectorAll(".vpopup-lang-btn").forEach(function(b){b.classList.toggle("active",b.dataset.lang===lang);});pop.querySelectorAll("[data-lang]").forEach(function(el){if(el.classList.contains("vpopup-lang-btn"))return;el.style.display=el.dataset.lang===lang?"":"none";});}pop.querySelectorAll(".vpopup-lang-btn").forEach(function(b){b.addEventListener("click",function(){showLang(b.dataset.lang);});});function closePop(){pop.classList.remove("open");document.body.style.overflow="";}document.querySelectorAll(".voucher-order").forEach(function(btn){btn.addEventListener("click",function(e){e.preventDefault();pop.classList.remove("done");pop.querySelector(".vpopup-err").style.display="none";pop.querySelector("#vpopup-form").reset();pop.classList.add("open");document.body.style.overflow="hidden";});});pop.addEventListener("click",function(e){if(e.target===pop||e.target.classList.contains("vpopup-close"))closePop();});document.addEventListener("keydown",function(e){if(e.key==="Escape"&&pop.classList.contains("open"))closePop();});var form=document.getElementById("vpopup-form");if(form){form.addEventListener("submit",function(e){e.preventDefault();var email=form.email.value.trim();var amount=parseInt(form.amount.value,10);if(!email||!amount)return;var submitBtn=document.getElementById("vpopup-submit");submitBtn.disabled=true;submitBtn.textContent="…";pop.querySelector(".vpopup-err").style.display="none";fetch(WEBHOOK_URL,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain;charset=utf-8"},body:JSON.stringify({email:email,amount:amount,lang:currentLang})}).then(function(){pop.classList.add("done");}).catch(function(){pop.querySelector(".vpopup-err").style.display="block";}).finally(function(){submitBtn.disabled=false;submitBtn.textContent="Send / Wyślij";});});}})();</script>
+/* Gallery random shuffle */(function(){var imgs=document.querySelectorAll(".gallery-mosaic figure img");if(imgs.length<2)return;function step(){var i=Math.floor(Math.random()*imgs.length);var j;do{j=Math.floor(Math.random()*imgs.length);}while(j===i);var a=imgs[i],b=imgs[j];a.classList.add("gswap");b.classList.add("gswap");setTimeout(function(){var sa=a.getAttribute("src"),sb=b.getAttribute("src");a.setAttribute("src",sb);b.setAttribute("src",sa);a.classList.remove("gswap");b.classList.remove("gswap");},900);}if(!window.matchMedia||!window.matchMedia("(prefers-reduced-motion: reduce)").matches){setInterval(step,2200);}})();/* Jewellery slideshow */(function(){var s=document.querySelectorAll(".jewellery-slideshow img");if(s.length<2)return;if(window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches)return;var i=0;setInterval(function(){s[i].classList.remove("active");i=(i+1)%s.length;s[i].classList.add("active");},3500);})();/* Product photo cycles */(function(){var cards=document.querySelectorAll(".pcard-photo");if(window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches)return;cards.forEach(function(el){var im=el.querySelectorAll("img");if(im.length<2)return;var i=0;setTimeout(function(){setInterval(function(){im[i].classList.remove("active");i=(i+1)%im.length;im[i].classList.add("active");},2600+Math.random()*1800);},Math.random()*2000);});})();/* Lightbox */(function(){var lb=document.getElementById("lightbox");var lbi=document.getElementById("lightbox-img");if(!lb||!lbi)return;function closeLB(){lb.classList.remove("open");document.body.style.overflow="";}var pricelist=document.getElementById("pricelist");if(pricelist){var openBtn=document.getElementById("pricelistOpen");if(openBtn){openBtn.addEventListener("click",function(){pricelist.classList.add("open");document.body.style.overflow="hidden";});}function closePL(){pricelist.classList.remove("open");document.body.style.overflow="";}pricelist.addEventListener("click",function(e){if(e.target===pricelist||e.target.classList.contains("pricelist-close"))closePL();});document.addEventListener("keydown",function(e){if(e.key==="Escape"&&pricelist.classList.contains("open"))closePL();});}document.addEventListener("click",function(e){var el=e.target.closest(".pcard-photo");if(el){var active=el.querySelector("img.active")||el.querySelector("img");if(active&&active.src){lbi.src=active.getAttribute("data-full")||active.src;lb.classList.add("open");document.body.style.overflow="hidden";return;}}if(lb.classList.contains("open")&&(e.target===lb||e.target.classList.contains("lb-close"))){closeLB();}});document.addEventListener("keydown",function(e){if(e.key==="Escape")closeLB();});})();/* E-voucher popup */(function(){var pop=document.getElementById("vpopup");if(!pop)return;var WEBHOOK_URL="https://script.google.com/macros/s/REPLACE_WITH_YOUR_DEPLOYMENT_ID/exec";var currentLang="en";function showLang(lang){currentLang=lang;pop.querySelectorAll(".vpopup-lang-btn").forEach(function(b){b.classList.toggle("active",b.dataset.lang===lang);});pop.querySelectorAll("[data-lang]").forEach(function(el){if(el.classList.contains("vpopup-lang-btn"))return;el.style.display=el.dataset.lang===lang?"":"none";});}pop.querySelectorAll(".vpopup-lang-btn").forEach(function(b){b.addEventListener("click",function(){showLang(b.dataset.lang);});});function closePop(){pop.classList.remove("open");document.body.style.overflow="";}document.querySelectorAll(".voucher-order").forEach(function(btn){btn.addEventListener("click",function(e){e.preventDefault();pop.classList.remove("done");pop.querySelector(".vpopup-err").style.display="none";pop.querySelector("#vpopup-form").reset();pop.classList.add("open");document.body.style.overflow="hidden";});});pop.addEventListener("click",function(e){if(e.target===pop||e.target.classList.contains("vpopup-close"))closePop();});document.addEventListener("keydown",function(e){if(e.key==="Escape"&&pop.classList.contains("open"))closePop();});var form=document.getElementById("vpopup-form");if(form){form.addEventListener("submit",function(e){e.preventDefault();var email=form.email.value.trim();if(!email)return;var submitBtn=document.getElementById("vpopup-submit");submitBtn.disabled=true;submitBtn.textContent="…";pop.querySelector(".vpopup-err").style.display="none";fetch(WEBHOOK_URL,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain;charset=utf-8"},body:JSON.stringify({email:email,lang:currentLang})}).then(function(){pop.classList.add("done");}).catch(function(){pop.querySelector(".vpopup-err").style.display="block";}).finally(function(){submitBtn.disabled=false;submitBtn.textContent="Send / Wyślij";});});}})();</script>
 </body>
 </html>
