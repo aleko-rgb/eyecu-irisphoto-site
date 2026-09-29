@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/png" href="/images/favicon.png">
+<link rel="apple-touch-icon" href="/images/favicon.png">
+<title>Regulamin — EYE C U® Iris Photo</title>
+<meta name="description" content="Regulamin EYE C U® Iris Photo — zasady zamawiania sesji makrofotografii irysa, biżuterii, WallArt oraz e-voucherów.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+:root{--ink:#0e0e0e;--paper:#ffffff;--bordeaux:#6B1E2E;--gold:#FFFFFF;--grey:#767676;--line:rgba(0,0,0,0.10);}
+html{scroll-behavior:smooth;}
+body{font-family:'Jost',sans-serif;font-weight:300;color:var(--ink);background:var(--paper);line-height:1.7;font-size:.95rem;}
+a{color:var(--bordeaux);text-decoration:underline;text-underline-offset:3px;}
+a:hover{opacity:.75;}
+nav{position:sticky;top:0;left:0;right:0;z-index:100;background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:16px 5vw;}
+.logo{display:flex;align-items:center;gap:9px;font-family:'Cormorant Garamond',serif;font-size:1.05rem;letter-spacing:.28em;text-transform:uppercase;color:var(--ink);text-decoration:none;}
+.logo img{height:34px;width:auto;}
+.nav-back{font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--bordeaux);text-decoration:none;}
+main{max-width:820px;margin:0 auto;padding:4rem 5vw 3rem;}
+.eyebrow{font-size:.7rem;letter-spacing:.22em;text-transform:uppercase;color:var(--bordeaux);margin-bottom:1rem;display:flex;align-items:center;gap:12px;}
+.eyebrow::before{content:'';width:28px;height:1px;background:var(--bordeaux);}
+h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,4.5vw,3.2rem);font-weight:300;line-height:1.1;margin-bottom:.7rem;}
+.subtitle{color:var(--grey);font-size:.92rem;margin-bottom:2.5rem;}
+h2{font-family:'Cormorant Garamond',serif;font-size:1.55rem;font-weight:400;margin-top:2.4rem;margin-bottom:.9rem;color:var(--ink);}
+h3{font-size:1rem;font-weight:500;margin-top:1.6rem;margin-bottom:.5rem;color:var(--ink);}
+p{margin-bottom:1rem;color:#333;}
+ul,ol{margin:.5rem 0 1.2rem 1.3rem;color:#333;}
+li{margin-bottom:.4rem;}
+.card{background:#fafafa;border:1px solid var(--line);padding:1.6rem 1.7rem;margin:1.5rem 0;border-radius:2px;}
+.card p:last-child{margin-bottom:0;}
+.updated{font-size:.82rem;color:var(--grey);margin-bottom:2rem;font-style:italic;}
+.toc{background:#fafafa;border-left:2px solid var(--bordeaux);padding:1.2rem 1.4rem;margin:1.5rem 0 2.5rem;}
+.toc h4{font-size:.72rem;letter-spacing:.15em;text-transform:uppercase;color:var(--bordeaux);margin-bottom:.6rem;font-weight:500;}
+.toc ol{margin:0 0 0 1.2rem;font-size:.88rem;}
+.toc li{margin-bottom:.3rem;}
+footer{border-top:1px solid var(--line);padding:2.4rem 5vw;text-align:center;color:var(--grey);font-size:.78rem;margin-top:3rem;}
+footer a{color:var(--grey);}
+footer a:hover{color:var(--bordeaux);}
+.footer-links{margin-top:.7rem;display:flex;justify-content:center;gap:1.4rem;flex-wrap:wrap;}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="/pl/" class="logo"><img src="/images/logo-v2.png" alt="EYE C U Iris Photo logo"></a>
+  <a href="/pl/" class="nav-back">← Powrót do strony głównej</a>
+</nav>
+
+<main>
+  <div class="eyebrow">Informacje prawne</div>
+  <h1>Regulamin</h1>
+  <p class="subtitle">Zasady korzystania z naszych usług i zamawiania naszych produktów.</p>
+  <p class="updated">Ostatnia aktualizacja: 27 września 2026 · Obowiązuje od 27 września 2026</p>
+
+  <div class="card">
+    <p><strong>W skrócie:</strong> Niniejszy Regulamin opisuje sposób składania zamówień w EYE C U® — sesji fotografii irysa, biżuterii, WallArt lub e-vouchera — sposoby płatności, dostawy oraz Twoje prawa jako konsumenta zgodnie z polskim i unijnym prawem.</p>
+  </div>
+
+  <div class="toc">
+    <h4>Spis treści</h4>
+    <ol>
+      <li><a href="#s1">Definicje</a></li>
+      <li><a href="#s2">Sprzedawca</a></li>
+      <li><a href="#s3">Oferowane usługi i produkty</a></li>
+      <li><a href="#s4">Składanie zamówienia</a></li>
+      <li><a href="#s5">Ceny i płatności</a></li>
+      <li><a href="#s6">Sesje fotograficzne</a></li>
+      <li><a href="#s7">Realizacja i dostawa</a></li>
+      <li><a href="#s8">E-vouchery i karty prezentowe</a></li>
+      <li><a href="#s9">Prawo odstąpienia od umowy</a></li>
+      <li><a href="#s10">Reklamacje i rękojmia</a></li>
+      <li><a href="#s11">Pozasądowe rozwiązywanie sporów</a></li>
+      <li><a href="#s12">Dane osobowe</a></li>
+      <li><a href="#s13">Własność intelektualna</a></li>
+      <li><a href="#s14">Postanowienia końcowe</a></li>
+    </ol>
+  </div>
+
+  <h2 id="s1">1. Definicje</h2>
+  <ul>
+    <li><strong>Sprzedawca</strong> — EYE C U sp. z o.o., z siedzibą w Poznaniu (dane poniżej).</li>
+    <li><strong>Klient / Konsument</strong> — osoba fizyczna lub prawna składająca zamówienie.</li>
+    <li><strong>Produkt</strong> — biżuteria irysowa, blok akrylowy, WallArt, zdjęcie w wysokiej rozdzielczości, wydruk lub karta prezentowa oferowana przez Sprzedawcę.</li>
+    <li><strong>Usługa</strong> — sesja makrofotografii irysa (mobilna lub w umówionym miejscu) świadczona przez Sprzedawcę.</li>
+    <li><strong>E-voucher</strong> — cyfrowa karta prezentowa, ważna 12 miesięcy od daty wystawienia, którą można wykorzystać na rezerwację Usługi i/lub zakup Produktów.</li>
+    <li><strong>Strona</strong> — <a href="https://eyecu-irisphoto-site.pages.dev/">eyecu-irisphoto-site.pages.dev</a> oraz jej subdomeny.</li>
+  </ul>
+
+  <h2 id="s2">2. Sprzedawca</h2>
+  <p>Sprzedawcą jest:</p>
+  <p><strong>EYE C U sp. z o.o.</strong><br>
+  Siedziba: Poznań, Polska<br>
+  NIP: 9721357375 · REGON: 529769538 · KRS: 0001129869<br>
+  Wpisana do Krajowego Rejestru Sądowego w dniu 30 września 2024 r.</p>
+  <p>Kontakt: <a href="mailto:poznan@eyecu-irisphoto.com">poznan@eyecu-irisphoto.com</a> · <a href="tel:+48509151841">+48 509 151 841</a></p>
+
+  <h2 id="s3">3. Oferowane usługi i produkty</h2>
+  <p>Sprzedawca oferuje:</p>
+  <ul>
+    <li>Sesje makrofotografii irysa — mobilne, świadczone pod adresem Klienta, w domu, w pracy lub w miejscu wydarzenia.</li>
+    <li>Biżuterię irysową — naszyjniki, bransoletki, kolczyki, pierścionki, spinki do mankietów, breloki, wykonaną ręcznie w Poznaniu.</li>
+    <li>WallArt — bloki akrylowe, wydruki na akrylu i metalu, wydruki Alu-Dibond.</li>
+    <li>Zdjęcia cyfrowe w wysokiej rozdzielczości oraz wydruki (A5, polaroid itp.).</li>
+    <li>E-vouchery i karty prezentowe.</li>
+    <li>Stanowiska fotograficzne na wydarzenia (śluby, wydarzenia firmowe, targi).</li>
+  </ul>
+  <p>Zdjęcia produktów na Stronie mają charakter poglądowy; rzeczywiste kolory i detale mogą się nieznacznie różnić ze względu na ręczny charakter produkcji i unikalność każdego irysa.</p>
+
+  <h2 id="s4">4. Składanie zamówienia</h2>
+  <p>Zamówienia można składać poprzez:</p>
+  <ul>
+    <li>E-mail — <a href="mailto:poznan@eyecu-irisphoto.com">poznan@eyecu-irisphoto.com</a></li>
+    <li>Telefon — <a href="tel:+48509151841">+48 509 151 841</a></li>
+    <li>WhatsApp — ten sam numer</li>
+    <li>Wiadomości bezpośrednie w mediach społecznościowych (Instagram, Facebook, TikTok)</li>
+    <li>Formularz zamówienia e-vouchera na Stronie</li>
+  </ul>
+  <p>Zamówienie uznaje się za przyjęte po pisemnym potwierdzeniu przez Sprzedawcę (e-mail lub wiadomość) oraz przekazaniu danych do płatności. Do momentu tego potwierdzenia umowa nie zostaje zawarta.</p>
+
+  <h2 id="s5">5. Ceny i płatności</h2>
+  <p>Ceny podane na Stronie wyrażone są w polskich złotych (PLN) i dotyczą <strong>jednego irysa</strong>. Każdy dodatkowy irys na tym samym produkcie powiększa cenę bazową o <strong>+80 zł</strong>. Efekt fotograficzny (kolor, tło, styl) jest zawsze wliczony w cenę, bez dopłat.</p>
+  <p>Koszty wysyłki nie są wliczone w cenę produktu i zależą od miejsca dostawy (patrz §7).</p>
+  <p>Płatność realizowana jest przelewem bankowym na rachunek:</p>
+  <p style="background:#fafafa;padding:.8rem 1rem;border-left:2px solid var(--bordeaux);"><strong>Numer konta:</strong> 09 1050 1520 1000 0090 8432 1877<br><strong>Odbiorca:</strong> EYE C U sp. z o.o.</p>
+  <p>Realizacja zamówienia lub rezerwacja sesji rozpoczyna się dopiero po otrzymaniu płatności (lub uzgodnionego zadatku) przez Sprzedawcę.</p>
+
+  <h2 id="s6">6. Sesje fotograficzne</h2>
+  <p>Sesje są rezerwowane w drodze uzgodnienia między Klientem a Sprzedawcą (data, godzina i miejsce). Klient zobowiązany jest być obecny w uzgodnionym czasie; Sprzedawca przyjeżdża z całym niezbędnym sprzętem.</p>
+  <ul>
+    <li>Sesje w Poznaniu: dojazd wliczony w cenę.</li>
+    <li>Sesje poza Poznaniem: koszt dojazdu uzgadniany z góry.</li>
+    <li>Sesja trwa około 20–30 minut dla dwóch osób.</li>
+    <li>Prosimy o zdjęcie soczewek kontaktowych przed sesją.</li>
+    <li>Na miejscu potrzebujemy jedynie stołu i dwóch krzeseł.</li>
+  </ul>
+  <p>W przypadku konieczności odwołania lub zmiany terminu prosimy o powiadomienie Sprzedawcy co najmniej 24 godziny wcześniej. Odwołanie w ostatniej chwili może wiązać się z opłatą równą kosztowi dojazdu.</p>
+
+  <h2 id="s7">7. Realizacja i dostawa</h2>
+  <p><strong>Terminy</strong> — Zdjęcia cyfrowe i biżuteria są zazwyczaj gotowe w ciągu 6 dni roboczych od sesji. WallArt dostarczany jest kurierem, a czas produkcji zależy od formatu.</p>
+  <p><strong>Wysyłka</strong>:</p>
+  <ul>
+    <li>Poznań: darmowa dostawa zdjęć i biżuterii.</li>
+    <li>Reszta Polski: InPost Paczkomat — 20 zł.</li>
+    <li>WallArt (Polska): kurier — od 30 zł, w zależności od rozmiaru i ilości.</li>
+    <li>Zagranica: wycena na życzenie.</li>
+  </ul>
+  <p>Ryzyko utraty lub uszkodzenia przechodzi na Konsumenta dopiero z chwilą doręczenia produktu.</p>
+
+  <h2 id="s8">8. E-vouchery i karty prezentowe</h2>
+  <ul>
+    <li>E-vouchery można zakupić na dowolną kwotę, począwszy od 50 zł.</li>
+    <li>E-voucher wystawiany jest e-mailem w ciągu 24 godzin od otrzymania płatności.</li>
+    <li>Ważność: <strong>12 miesięcy</strong> od daty wystawienia.</li>
+    <li>Fizyczne karty prezentowe dostępne są na życzenie, w małym pudełku prezentowym. Bezpłatna dostawa w Poznaniu, w zależności od naszej dostępności (do ustalenia z wyprzedzeniem).</li>
+    <li>E-voucherów nie można wymienić na gotówkę i nie można ich doładowywać.</li>
+    <li>E-voucher można wykorzystać w jednej lub kilku transakcjach, aż do wyczerpania salda.</li>
+  </ul>
+
+  <h2 id="s9">9. Prawo odstąpienia od umowy</h2>
+  <p>Zgodnie z Ustawą z dnia 30 maja 2014 r. o prawach konsumenta, Konsumentowi zawierającemu umowę na odległość przysługuje prawo do odstąpienia od umowy w terminie <strong>14 dni</strong>, bez podania przyczyny.</p>
+  <h3>Sposób realizacji prawa</h3>
+  <p>Aby odstąpić od umowy, prosimy o wysłanie wiadomości na adres <a href="mailto:poznan@eyecu-irisphoto.com">poznan@eyecu-irisphoto.com</a> z jednoznacznym oświadczeniem o odstąpieniu. Po jego zaakceptowaniu zwrócimy płatność w ciągu 14 dni w ten sam sposób, w jaki została dokonana.</p>
+  <h3>Wyłączenia</h3>
+  <p>Prawo odstąpienia nie przysługuje w odniesieniu do:</p>
+  <ul>
+    <li>Produktów wykonanych według specyfikacji Konsumenta lub wyraźnie spersonalizowanych (biżuteria irysowa na zamówienie, WallArt z irysem Klienta, spersonalizowane zdjęcia), po rozpoczęciu produkcji.</li>
+    <li>Usług w pełni wykonanych za uprzednią wyraźną zgodą Konsumenta — w szczególności zrealizowanej sesji fotografii irysa.</li>
+    <li>E-voucherów już wykorzystanych w całości lub w części.</li>
+  </ul>
+  <p>W przypadku niewykorzystanych e-voucherów, 14-dniowy termin odstąpienia biegnie od daty ich wystawienia.</p>
+
+  <h2 id="s10">10. Reklamacje i rękojmia</h2>
+  <p>Sprzedawca odpowiada za zgodność produktu z umową na zasadach określonych w polskim prawie (art. 43a–43g Ustawy o prawach konsumenta).</p>
+  <p>W przypadku wadliwości produktu lub jego niezgodności z zamówieniem prosimy o kontakt pod adresem <a href="mailto:poznan@eyecu-irisphoto.com">poznan@eyecu-irisphoto.com</a> w rozsądnym terminie, wraz z opisem wady (zdjęcie pomocne).</p>
+  <p>Reklamacje rozpatrujemy w ciągu <strong>14 dni</strong>. W zależności od charakteru wady możemy zaproponować naprawę, wymianę, obniżenie ceny lub pełny zwrot pieniędzy.</p>
+
+  <h2 id="s11">11. Pozasądowe rozwiązywanie sporów</h2>
+  <p>Konsument dysponuje następującymi możliwościami:</p>
+  <ul>
+    <li>Mediacja przy Miejskim Rzeczniku Konsumentów — bezpłatna.</li>
+    <li>Postępowanie polubowne w Inspekcji Handlowej — <a href="https://www.uokik.gov.pl/" target="_blank" rel="noopener">uokik.gov.pl</a>.</li>
+    <li>Unijna platforma ODR (Online Dispute Resolution) — <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener">ec.europa.eu/consumers/odr</a>.</li>
+  </ul>
+
+  <h2 id="s12">12. Dane osobowe</h2>
+  <p>Dane osobowe przekazywane podczas składania zamówienia przetwarzane są zgodnie z naszą <a href="/pl/privacy.html">Polityką prywatności</a>, która stanowi integralną część niniejszego Regulaminu.</p>
+
+  <h2 id="s13">13. Własność intelektualna</h2>
+  <p>Zdjęcia irysa wykonane Klientowi należą do Klienta. Sprzedawca może wykorzystywać zanonimizowane zbliżenia irysa (bez twarzy i danych identyfikujących) jako materiały portfolio na Stronie i w mediach społecznościowych. Klient może w każdej chwili zrezygnować, kontaktując się mailowo.</p>
+  <p>Treść Strony, logotyp, projekty produktów i zdjęcia prezentujące naszą pracę pozostają własnością EYE C U sp. z o.o. i nie mogą być kopiowane, powielane ani rozpowszechniane bez uprzedniej pisemnej zgody.</p>
+
+  <h2 id="s14">14. Postanowienia końcowe</h2>
+  <ul>
+    <li>Niniejszy Regulamin podlega prawu polskiemu. Wszelkie spory rozstrzygane są przez sądy właściwe dla siedziby Sprzedawcy, z zastrzeżeniem przepisów o ochronie konsumentów.</li>
+    <li>Sprzedawca może okresowo aktualizować Regulamin. Zmiany dotyczą zamówień złożonych po ich publikacji; zamówienia bieżące podlegają wersji zaakceptowanej w chwili złożenia zamówienia.</li>
+    <li>Jeżeli którekolwiek postanowienie Regulaminu okaże się nieważne, pozostałe postanowienia zachowują moc.</li>
+  </ul>
+
+</main>
+
+<footer>
+  <div>© 2026 EYE C U sp. z o.o. · Wszelkie prawa zastrzeżone.</div>
+  <div class="footer-links">
+    <a href="/pl/">Strona główna</a>
+    <a href="/pl/#contact">Kontakt</a>
+    <a href="/pl/privacy.html">Polityka prywatności</a>
+    <a href="/pl/terms.html">Regulamin</a>
+  </div>
+</footer>
+
+</body>
+</html>
