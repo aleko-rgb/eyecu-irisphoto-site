@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/png" href="/images/favicon.png">
+<link rel="apple-touch-icon" href="/images/favicon.png">
+<title>Polityka prywatności — EYE C U® Iris Photo</title>
+<meta name="description" content="Polityka prywatności EYE C U® Iris Photo — jak zbieramy, wykorzystujemy i chronimy Twoje dane osobowe.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+:root{--ink:#0e0e0e;--paper:#ffffff;--bordeaux:#6B1E2E;--gold:#FFFFFF;--grey:#767676;--line:rgba(0,0,0,0.10);}
+html{scroll-behavior:smooth;}
+body{font-family:'Jost',sans-serif;font-weight:300;color:var(--ink);background:var(--paper);line-height:1.7;font-size:.95rem;}
+a{color:var(--bordeaux);text-decoration:underline;text-underline-offset:3px;}
+a:hover{opacity:.75;}
+nav{position:sticky;top:0;left:0;right:0;z-index:100;background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:16px 5vw;}
+.logo{display:flex;align-items:center;gap:9px;font-family:'Cormorant Garamond',serif;font-size:1.05rem;letter-spacing:.28em;text-transform:uppercase;color:var(--ink);text-decoration:none;}
+.logo img{height:34px;width:auto;}
+.nav-back{font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--bordeaux);text-decoration:none;}
+main{max-width:820px;margin:0 auto;padding:4rem 5vw 3rem;}
+.eyebrow{font-size:.7rem;letter-spacing:.22em;text-transform:uppercase;color:var(--bordeaux);margin-bottom:1rem;display:flex;align-items:center;gap:12px;}
+.eyebrow::before{content:'';width:28px;height:1px;background:var(--bordeaux);}
+h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,4.5vw,3.2rem);font-weight:300;line-height:1.1;margin-bottom:.7rem;}
+.subtitle{color:var(--grey);font-size:.92rem;margin-bottom:2.5rem;}
+h2{font-family:'Cormorant Garamond',serif;font-size:1.55rem;font-weight:400;margin-top:2.4rem;margin-bottom:.9rem;color:var(--ink);}
+h3{font-size:1rem;font-weight:500;margin-top:1.6rem;margin-bottom:.5rem;color:var(--ink);}
+p{margin-bottom:1rem;color:#333;}
+ul{margin:.5rem 0 1.2rem 1.3rem;color:#333;}
+li{margin-bottom:.4rem;}
+.card{background:#fafafa;border:1px solid var(--line);padding:1.6rem 1.7rem;margin:1.5rem 0;border-radius:2px;}
+.card p:last-child{margin-bottom:0;}
+.updated{font-size:.82rem;color:var(--grey);margin-bottom:2rem;font-style:italic;}
+footer{border-top:1px solid var(--line);padding:2.4rem 5vw;text-align:center;color:var(--grey);font-size:.78rem;margin-top:3rem;}
+footer a{color:var(--grey);}
+footer a:hover{color:var(--bordeaux);}
+.footer-links{margin-top:.7rem;display:flex;justify-content:center;gap:1.4rem;flex-wrap:wrap;}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="/pl/" class="logo"><img src="/images/logo-v2.png" alt="EYE C U Iris Photo logo"></a>
+  <a href="/pl/" class="nav-back">← Powrót do strony głównej</a>
+</nav>
+
+<main>
+  <div class="eyebrow">Informacje prawne</div>
+  <h1>Polityka prywatności</h1>
+  <p class="subtitle">Jak zbieramy, wykorzystujemy i chronimy Twoje dane osobowe.</p>
+  <p class="updated">Ostatnia aktualizacja: 27 września 2026</p>
+
+  <div class="card">
+    <p><strong>W skrócie:</strong> EYE C U® Iris Photo nie stosuje śledzących plików cookie, nie sprzedaje Twoich danych ani nie udostępnia ich reklamodawcom. Zbieramy tylko to, co jest niezbędne, aby odpowiedzieć na Twoje zapytania i świadczyć nasze usługi.</p>
+  </div>
+
+  <h2>1. Kim jesteśmy</h2>
+  <p>Administratorem strony jest <strong>EYE C U sp. z o.o.</strong> (dalej „EYE C U", „my", „nas" lub „nasze"), spółka zarejestrowana w Polsce. Specjalizujemy się w makrofotografii irysa, biżuterii irysowej na zamówienie, WallArt oraz stanowiskach fotograficznych na wydarzenia.</p>
+  <p><strong>Siedziba:</strong> Poznań, Polska<br><strong>NIP:</strong> 9721357375 · <strong>REGON:</strong> 529769538 · <strong>KRS:</strong> 0001129869<br><strong>Kontakt:</strong> <a href="mailto:poznan@eyecu-irisphoto.com">poznan@eyecu-irisphoto.com</a> · <a href="tel:+48509151841">+48 509 151 841</a></p>
+
+  <h2>2. Jakie dane zbieramy</h2>
+  <p>Zbieramy wyłącznie dane, które podajesz nam dobrowolnie, kontaktując się z nami lub zamawiając nasze usługi:</p>
+  <ul>
+    <li><strong>Dane kontaktowe</strong> — imię i nazwisko, adres e-mail, numer telefonu.</li>
+    <li><strong>Szczegóły sesji</strong> — data sesji, adres, notatki dotyczące rezerwacji lub uczestników (zwierząt/osób).</li>
+    <li><strong>Szczegóły zamówienia</strong> — zamówione produkty, adres dostawy, sposób płatności (nie przechowujemy numerów kart).</li>
+    <li><strong>Zdjęcia irysa</strong> wykonane podczas sesji.</li>
+  </ul>
+  <p>Nie stosujemy narzędzi analitycznych, śledzących plików cookie, pikseli reklamowych ani skryptów typu fingerprinting.</p>
+
+  <h2>3. Jak wykorzystujemy Twoje dane</h2>
+  <p>Wykorzystujemy Twoje dane wyłącznie w celu:</p>
+  <ul>
+    <li>Odpowiadania na zapytania i przygotowania wycen.</li>
+    <li>Realizacji, dostarczenia i obsługi posprzedażowej sesji oraz zamówień.</li>
+    <li>Wysyłania Twoich zdjęć oraz — jeśli dotyczy — biżuterii, WallArt lub voucherów.</li>
+    <li>Wysyłania wiadomości związanych z zamówieniem (dane do płatności, informacje o wysyłce, korespondencja posprzedażowa).</li>
+    <li>Spełnienia obowiązków księgowych i prawnych (faktury, sprawozdawczość podatkowa).</li>
+  </ul>
+  <p>Nie wysyłamy newsletterów promocyjnych bez Twojej wyraźnej zgody i nigdy nie wysyłamy niezamówionych e-maili marketingowych.</p>
+
+  <h2>4. Pliki cookie i usługi zewnętrzne</h2>
+  <p>Strona ładuje wyłącznie Google Fonts na potrzeby typografii (niezbędne do prawidłowego wyświetlenia witryny). Nie stosujemy plików cookie reklamowych, analitycznych ani związanych z mediami społecznościowymi.</p>
+  <p>Nasza korespondencja e-mail może przechodzić przez infrastrukturę Google Workspace (Gmail). Nasi dostawcy usług księgowych i płatniczych mogą przetwarzać Twoje dane w zakresie niezbędnym do realizacji transakcji.</p>
+
+  <h2>5. Jak długo przechowujemy dane</h2>
+  <p>Przechowujemy Twoje dane tak długo, jak jest to niezbędne do wskazanych celów, i nie dłużej niż wymaga tego polskie prawo księgowe i podatkowe (zwykle 5 lat w przypadku danych fakturowych). Możesz w każdej chwili poprosić nas o wcześniejsze usunięcie danych — patrz niżej.</p>
+
+  <h2>6. Udostępnianie danych</h2>
+  <p>Nigdy nie sprzedajemy Twoich danych. Udostępniamy je wyłącznie:</p>
+  <ul>
+    <li>Partnerom logistycznym (InPost Paczkomat, kurierzy) — w celu wysyłki zamówienia.</li>
+    <li>Naszemu biuru rachunkowemu — w celach księgowych i podatkowych.</li>
+    <li>Operatorom płatności — wyłącznie w zakresie niezbędnym do otrzymania płatności.</li>
+    <li>Organom publicznym — gdy wymaga tego prawo.</li>
+  </ul>
+
+  <h2>7. Twoje zdjęcia</h2>
+  <p>Zdjęcia irysa i portrety wykonane podczas sesji należą do Ciebie. Możemy wykorzystywać zanonimizowane zbliżenia irysa (bez twarzy i danych identyfikujących) jako materiały portfolio na naszej stronie i w mediach społecznościowych. Jeśli nie chcesz, aby Twój irys pojawił się w naszym portfolio, wystarczy poinformować nas o tym w momencie rezerwacji lub w dowolnej chwili mailem — wykluczymy go bez zbędnych pytań.</p>
+
+  <h2>8. Twoje prawa (RODO)</h2>
+  <p>Zgodnie z Rozporządzeniem UE o Ochronie Danych Osobowych (RODO) masz prawo do:</p>
+  <ul>
+    <li>Dostępu do swoich danych osobowych.</li>
+    <li>Sprostowania nieprawidłowych lub nieaktualnych informacji.</li>
+    <li>Żądania usunięcia danych (z zastrzeżeniem obowiązku przechowywania faktur).</li>
+    <li>Sprzeciwu wobec określonych sposobów przetwarzania.</li>
+    <li>Otrzymania kopii swoich danych w formacie umożliwiającym przenoszenie.</li>
+    <li>Wniesienia skargi do polskiego organu nadzorczego — Prezesa Urzędu Ochrony Danych Osobowych (UODO).</li>
+  </ul>
+  <p>Aby skorzystać z tych praw, skontaktuj się z nami pod adresem <a href="mailto:poznan@eyecu-irisphoto.com">poznan@eyecu-irisphoto.com</a>. Odpowiadamy w ciągu kilku dni roboczych.</p>
+
+  <h2>9. Bezpieczeństwo</h2>
+  <p>Twoje dane przechowujemy w Google Workspace z uwierzytelnianiem dwuskładnikowym oraz na naszych zabezpieczonych komputerach. Nie udostępniamy dostępu do Twoich plików osobom trzecim.</p>
+
+  <h2>10. Zmiany w polityce</h2>
+  <p>Możemy okresowo aktualizować niniejszą Politykę prywatności. Data „Ostatnia aktualizacja" na górze strony odzwierciedla najnowszą wersję. Każda istotna zmiana zostanie wyróżniona na naszej stronie głównej.</p>
+
+  <h2>11. Kontakt</h2>
+  <p>Masz pytania dotyczące prywatności lub swoich danych? Napisz do nas na <a href="mailto:poznan@eyecu-irisphoto.com">poznan@eyecu-irisphoto.com</a> lub zadzwoń pod <a href="tel:+48509151841">+48 509 151 841</a>. Chętnie odpowiemy.</p>
+</main>
+
+<footer>
+  <div>© 2026 EYE C U® sp. z o.o. · Wszelkie prawa zastrzeżone.</div>
+  <div class="footer-links">
+    <a href="/pl/">Strona główna</a>
+    <a href="/pl/#contact">Kontakt</a>
+    <a href="/pl/privacy.html">Polityka prywatności</a>
+  </div>
+</footer>
+
+</body>
+</html>
