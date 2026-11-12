@@ -284,67 +284,51 @@ footer{padding:2.6rem 5vw;border-top:1px solid var(--line);text-align:center;col
 <div id="pricelist" class="pricelist">
 <div class="pricelist-box">
 <button type="button" class="pricelist-close" aria-label="Close">×</button>
-<h3>EYE C U® — Cennik</h3>
-<p class="pl-notes">Cena obejmuje <strong>jedną tęczówkę</strong> oraz dowolny efekt fotograficzny (kolor, styl). Każda kolejna tęczówka na tym samym produkcie: <strong>+80 zł</strong>. Koszt wysyłki zależny od wybranego produktu.</p>
-<h4>Biżuteria i breloki</h4>
-<table class="pl-table">
-<thead><tr><th>Produkt</th><th>Cena</th></tr></thead>
-<tbody>
-<tr><td>Brelok minimalistyczny</td><td class="price">139 zł</td></tr>
-<tr><td>Brelok Duo Premium</td><td class="price">209 zł</td></tr>
-<tr><td>Pierścionek Sofia</td><td class="price">169 zł</td></tr>
-<tr><td>Kolczyki Sofia</td><td class="price">169 zł</td></tr>
-<tr><td>Spinki do mankietów Sofia</td><td class="price">169 zł</td></tr>
-<tr><td>Naszyjnik Sofia 10 mm</td><td class="price">239 zł</td></tr>
-<tr><td>Naszyjnik Sofia 16 mm</td><td class="price">239 zł</td></tr>
-<tr><td>Naszyjnik Sofia dwustronny</td><td class="price">269 zł</td></tr>
-<tr><td>Bransoletka Sofia</td><td class="price">239 zł</td></tr>
-<tr><td>Bransoletka Sofia · skóra</td><td class="price">299 zł</td></tr>
-<tr><td>Naszyjnik Lila · S925 srebro</td><td class="price">449 zł</td></tr>
-<tr><td>Naszyjnik Lila · S925 pozłacane</td><td class="price">529 zł</td></tr>
-</tbody>
-</table>
-<h4>Wydruki fotograficzne</h4>
-<table class="pl-table">
-<thead><tr><th>Format</th><th>Cena</th></tr></thead>
-<tbody>
-<tr><td>Zdjęcie w formacie Polaroid</td><td class="price">129 zł</td></tr>
-<tr><td>Zdjęcie w formacie A5</td><td class="price">229 zł</td></tr>
-<tr><td>Zdjęcie w formacie A4</td><td class="price">309 zł</td></tr>
-</tbody>
-</table>
-<h4>Bloki akrylowe</h4>
-<table class="pl-table">
-<thead><tr><th>Format</th><th>Cena</th></tr></thead>
-<tbody>
-<tr><td>Blok akrylowy 10×10 cm</td><td class="price">299 zł</td></tr>
-<tr><td>Blok akrylowy 20×20 cm</td><td class="price">599 zł</td></tr>
-</tbody>
-</table>
-<h4>Obrazy wielkoformatowe</h4>
-<table class="pl-table">
-<thead><tr><th>Format</th><th>Akryl na metalu</th><th>Szczotkowane aluminium</th></tr></thead>
-<tbody>
-<tr><td>30×30 cm</td><td class="price">599 zł</td><td class="price">849 zł</td></tr>
-<tr><td>40×40 cm</td><td class="price">1099 zł</td><td class="price">1149 zł</td></tr>
-<tr><td>60×60 cm</td><td class="price">1349 zł</td><td class="price">1499 zł</td></tr>
-<tr><td>80×80 cm</td><td class="price">1649 zł</td><td class="price">1999 zł</td></tr>
-<tr><td>60×40 cm</td><td class="price">1149 zł</td><td class="price">1449 zł</td></tr>
-<tr><td>90×60 cm</td><td class="price">2249 zł</td><td class="price">2999 zł</td></tr>
-<tr><td>120×80 cm</td><td class="price">2499 zł</td><td class="price">3399 zł</td></tr>
-<tr><td>90×30 cm</td><td class="price">1199 zł</td><td class="price">1499 zł</td></tr>
-<tr><td>120×30 cm</td><td class="price">1599 zł</td><td class="price">2299 zł</td></tr>
-<tr><td>120×40 cm</td><td class="price">1799 zł</td><td class="price">2399 zł</td></tr>
-</tbody>
-</table>
-<h4>Plik cyfrowy</h4>
-<table class="pl-table">
-<thead><tr><th>Produkt</th><th>Cena</th></tr></thead>
-<tbody>
-<tr><td>Plik cyfrowy JPEG</td><td class="price">399 zł</td></tr>
-</tbody>
-</table>
-<p class="pl-footnote">Cennik obowiązuje od 19.03.2025. Karty podarunkowe można zakupić na dowolną kwotę.</p>
+<style>
+.cen{font-family:'Jost',sans-serif;color:var(--ink);}
+.cen-head{text-align:center;margin:.4rem 0 1.8rem;}
+.cen-head img{height:52px;width:auto;display:block;margin:0 auto .8rem;}
+.cen-eyebrow{font-size:.72rem;letter-spacing:.34em;text-transform:uppercase;color:var(--grey);}
+.cen-intro{background:#f7f3ec;border-left:3px solid #b8964f;padding:.9rem 1.2rem;margin:0 0 2.1rem;}
+.cen-intro p{position:relative;margin:.2rem 0;padding-left:1.1rem;font-size:.86rem;line-height:1.7;color:#4a4a4a;}
+.cen-intro p::before{content:"\00b7";position:absolute;left:.25rem;top:-.05rem;color:#b8964f;font-weight:700;font-size:1.1rem;}
+.cen-intro strong{color:var(--bordeaux);font-weight:600;}
+.cen-h{display:flex;align-items:center;gap:1.1rem;margin:2rem 0 .9rem;}
+.cen-h h4{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:1.5rem;line-height:1;color:var(--bordeaux);margin:0;white-space:nowrap;}
+.cen-h .rule{flex:1;height:1px;background:var(--line);}
+.cen-sub{font-size:.8rem;color:var(--grey);margin:-.35rem 0 .7rem;}
+.cen-grid{display:grid;grid-template-columns:1fr 1fr;column-gap:3.5rem;row-gap:0;}
+.cen-grid.one{grid-template-columns:1fr;}
+.cen-row{display:flex;align-items:baseline;padding:.42rem 0;}
+.cen-row .nm{font-size:.95rem;color:var(--ink);white-space:nowrap;}
+.cen-row .dot{flex:1;border-bottom:1px dotted #cdc6b8;margin:0 .6rem;position:relative;top:-.26rem;min-width:1.5rem;}
+.cen-row .pr{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:1.05rem;color:var(--bordeaux);white-space:nowrap;}
+.cen-table{width:100%;border-collapse:collapse;margin-top:.2rem;}
+.cen-table th{font-size:.68rem;letter-spacing:.11em;text-transform:uppercase;color:var(--grey);font-weight:500;padding:.55rem .3rem;border-bottom:1px solid var(--line);text-align:right;}
+.cen-table th:first-child{text-align:left;}
+.cen-table td{padding:.5rem .3rem;border-bottom:1px solid var(--line);font-size:.95rem;color:var(--ink);}
+.cen-table td.pr{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:1.05rem;color:var(--bordeaux);text-align:right;white-space:nowrap;}
+.cen-foot{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;flex-wrap:wrap;margin-top:2.2rem;padding-top:1rem;border-top:1px solid var(--line);}
+.cen-foot .mark{font-family:'Cormorant Garamond',serif;letter-spacing:.14em;font-size:.95rem;color:var(--ink);}
+.cen-foot .note{font-size:.76rem;font-style:italic;color:var(--grey);text-align:right;}
+@media(max-width:640px){.cen-grid{grid-template-columns:1fr;column-gap:0;}.cen-foot .note{text-align:left;}}
+</style>
+<div class="cen">
+<div class="cen-head"><img src="/images/logo-v2.png" alt="EYE C U Iris Photo"><div class="cen-eyebrow">Cennik produktów</div></div>
+<div class="cen-intro"><p>Cena obejmuje <strong>jedną tęczówkę</strong> oraz dowolny efekt fotograficzny (kolor, styl).</p><p>Każda kolejna tęczówka na tym samym produkcie: <strong>+80 zł</strong>. Koszt wysyłki zależny od wybranego produktu.</p></div>
+<div class="cen-h"><h4>Biżuteria &amp; breloki</h4><span class="rule"></span></div>
+<div class="cen-grid"><div class="cen-row"><span class="nm">Brelok minimalistyczny</span><span class="dot"></span><span class="pr">139 zł</span></div><div class="cen-row"><span class="nm">Brelok Duo Premium</span><span class="dot"></span><span class="pr">209 zł</span></div><div class="cen-row"><span class="nm">Pierścionek Sofia</span><span class="dot"></span><span class="pr">169 zł</span></div><div class="cen-row"><span class="nm">Kolczyki Sofia</span><span class="dot"></span><span class="pr">169 zł</span></div><div class="cen-row"><span class="nm">Spinki do mankietów Sofia</span><span class="dot"></span><span class="pr">169 zł</span></div><div class="cen-row"><span class="nm">Naszyjnik Sofia 10 mm</span><span class="dot"></span><span class="pr">239 zł</span></div><div class="cen-row"><span class="nm">Naszyjnik Sofia 16 mm</span><span class="dot"></span><span class="pr">239 zł</span></div><div class="cen-row"><span class="nm">Bransoletka Sofia</span><span class="dot"></span><span class="pr">239 zł</span></div><div class="cen-row"><span class="nm">Naszyjnik Sofia dwustronny</span><span class="dot"></span><span class="pr">269 zł</span></div><div class="cen-row"><span class="nm">Bransoletka Sofia · skóra</span><span class="dot"></span><span class="pr">299 zł</span></div><div class="cen-row"><span class="nm">Naszyjnik Lila · S925 srebro</span><span class="dot"></span><span class="pr">449 zł</span></div><div class="cen-row"><span class="nm">Naszyjnik Lila · S925 pozłacane</span><span class="dot"></span><span class="pr">529 zł</span></div></div>
+<div class="cen-h"><h4>Wydruki fotograficzne</h4><span class="rule"></span></div>
+<div class="cen-grid one"><div class="cen-row"><span class="nm">Zdjęcie w formacie Polaroid</span><span class="dot"></span><span class="pr">129 zł</span></div><div class="cen-row"><span class="nm">Zdjęcie w formacie A5</span><span class="dot"></span><span class="pr">229 zł</span></div><div class="cen-row"><span class="nm">Zdjęcie w formacie A4</span><span class="dot"></span><span class="pr">309 zł</span></div></div>
+<div class="cen-h"><h4>Bloki akrylowe</h4><span class="rule"></span></div>
+<div class="cen-grid"><div class="cen-row"><span class="nm">Blok akrylowy 10×10 cm</span><span class="dot"></span><span class="pr">299 zł</span></div><div class="cen-row"><span class="nm">Blok akrylowy 20×20 cm</span><span class="dot"></span><span class="pr">599 zł</span></div></div>
+<div class="cen-h"><h4>Obrazy wielkoformatowe</h4><span class="rule"></span></div>
+<div class="cen-sub">Akryl na metalu i szczotkowane aluminium (Alu-Dibond).</div>
+<table class="cen-table"><thead><tr><th>Format</th><th>Akryl na metalu</th><th>Szczotkowane aluminium</th></tr></thead><tbody><tr><td>30×30 cm</td><td class="pr">599 zł</td><td class="pr">849 zł</td></tr><tr><td>40×40 cm</td><td class="pr">1099 zł</td><td class="pr">1149 zł</td></tr><tr><td>60×60 cm</td><td class="pr">1349 zł</td><td class="pr">1499 zł</td></tr><tr><td>80×80 cm</td><td class="pr">1649 zł</td><td class="pr">1999 zł</td></tr><tr><td>60×40 cm</td><td class="pr">1149 zł</td><td class="pr">1449 zł</td></tr><tr><td>90×60 cm</td><td class="pr">2249 zł</td><td class="pr">2999 zł</td></tr><tr><td>120×80 cm</td><td class="pr">2499 zł</td><td class="pr">3399 zł</td></tr><tr><td>90×30 cm</td><td class="pr">1199 zł</td><td class="pr">1499 zł</td></tr><tr><td>120×30 cm</td><td class="pr">1599 zł</td><td class="pr">2299 zł</td></tr><tr><td>120×40 cm</td><td class="pr">1799 zł</td><td class="pr">2399 zł</td></tr></tbody></table>
+<div class="cen-h"><h4>Plik cyfrowy</h4><span class="rule"></span></div>
+<div class="cen-grid one"><div class="cen-row"><span class="nm">Plik cyfrowy JPEG</span><span class="dot"></span><span class="pr">399 zł</span></div></div>
+<div class="cen-foot"><span class="mark">EYE C U — Iris Photo®</span><span class="note">Cennik obowiązuje od 19.03.2025. Karty podarunkowe można zakupić na dowolną kwotę.</span></div>
+</div>
 </div>
 </div>
 <div id="vpopup" class="vpopup"><div class="vpopup-box">
